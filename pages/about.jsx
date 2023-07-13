@@ -9,7 +9,7 @@ import { faShieldCheck } from '@fortawesome/free-solid-svg-icons';
 
 import bannerImg from '../public/assets/main/about-banner.jpg';
 import EditorImg from '../public/assets/main/07-car.png';
-import JessImg from '../public/assets/main/Jess.png';
+import JessImg from '../public/assets/main/jess.png';
 
 
 
