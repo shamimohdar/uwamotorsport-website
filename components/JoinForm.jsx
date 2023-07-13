@@ -154,15 +154,21 @@ import { faEnvelope, faLocationDot, faPhone } from '@fortawesome/free-solid-svg-
             <div className='lg:flex lg:visible hidden'>
               <div className='my-auto'>
                 <div className='pt-10 px-10 flex items-center'>
+                <div className='w-8 h-8'>
                   <FontAwesomeIcon icon={faLocationDot} size="xl" />
+                </div>
                   <p className='pl-4 text-2xl'>25 Fairway, Crawley WA 6009</p>
                 </div>
                 <div className='py-8 px-10 flex items-center'>
+                <div className='w-8 h-8'>
                   <FontAwesomeIcon icon={faPhone} size="xl" />
+                </div>
                   <p className='pl-4 text-2xl'>(+61) 0434 448 003</p>
                 </div>
                 <div className='px-10 flex items-center'>
-                  <FontAwesomeIcon icon={faEnvelope} size="xl" />
+                  <div className='w-8 h-8'>
+                    <FontAwesomeIcon icon={faEnvelope} size="xl" />
+                  </div>
                   <p className='pl-4 text-2xl'>uwamotorsportev@gmail.com</p>
                 </div>
               </div>
