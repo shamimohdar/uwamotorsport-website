@@ -1,4 +1,5 @@
-import React from "react";
+import React from 'react';
+import Image from 'next/image'
 import Link from 'next/link';
 
 import { Zoom } from "react-slideshow-image";
@@ -11,11 +12,11 @@ import { faChevronDown } from '@fortawesome/free-solid-svg-icons';
 const Slideshow = ({Image1, Image2, Image3, Image4, Image5}) => {
 	//Array of Images
 	const images = [
-		"assets/main/Img1.jpg",
-        "assets/main/Img2.jpg",
-        "assets/main/Img3(2).jpg",
-        "assets/main/Img4(2).jpg",
-        "assets/main/002 (2).jpg",
+		"/assets/main/Img1.jpg",
+        "/assets/main/Img2.jpg",
+        "/assets/main/Img3(2).jpg",
+        "/assets/main/Img4(2).jpg",
+        "/assets/main/002 (2).jpg",
 	];
 
 	//These are custom properties for zoom effect while slide-show
@@ -42,11 +43,12 @@ const Slideshow = ({Image1, Image2, Image3, Image4, Image5}) => {
 				{images.map((each, index) => (
 					
                     <div key={index} className="flex justify-center md:items-center items-start w-screen h-[screen] opacity-50">
-						<img
+						{/* <img
 							className="w-screen h-screen"
 							style={{objectFit: "cover"}}
 							src={each}
-						/>
+						/> */}
+						<Image src={each} width={2000} height={2000} className='object-cover w-screen h-screen' alt='/' />
 					</div>
 				))}
 			</Zoom>

@@ -62,31 +62,32 @@ const about = () => {
 
       <hr className='w-8/12 h-0.5 mx-auto bg-motorsports-yellow border-0 rounded-2 mt-2 mb-5 dark:bg-motorsports-yellow' />
       
-      <div className='lg:w-8/12 m-auto lg:grid grid-cols-3 py-10'>
-        <div className='col-span-2 flex justify-center items-center'>
-          <video width="75%" height="75%" controls>
+      <div className='xl:w-8/12 m-auto xl:grid grid-cols-3 py-10'>
+        <div className='col-span-2 flex justify-center items-center xl:mr-10'>
+          {/* <video width="75%" height="75%" controls>
             <source src="/assets/main/intro-vid.mp4" type="video/mp4" />
-          </video>
+          </video> */}
+          <iframe src="https://player.vimeo.com/video/846544255?title=0&amp;byline=0&amp;portrait=0&amp;speed=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" style={{border:"0", width:"100%", height:"100%"}} allow="autoplay; fullscreen; picture-in-picture" allowFullScreen title="intro-vid"></iframe>
         </div>
-        <div className='col-span-1 lg:w-full w-8/12 mx-auto lg:py-0 text-justify'>
+        <div className='col-span-1 xl:w-full w-8/12 mx-auto xl:py-0 text-justify'>
           <p className='pb-2 text-white text-2xl font-bold'>
             Who are we?
           </p>
-          <div className='mb-3 text-lg'>
-          <p>
-            We are a group of students from UWA comprised of up-and-coming talented 
-            engineers, technicians and business professionals that strive to push the 
-            limits of engineering to produce world-class electric racecars. 
-          </p> 
+          <div className='mb-3 text-xl'>
+            <p>
+              We are a group of students from UWA comprised of up-and-coming talented 
+              engineers, technicians and business professionals that strive to push the 
+              limits of engineering to produce world-class electric racecars. 
+            </p> 
+          </div>
+          <div className='mt-3 text-xl'>
+            <p>
+            We compete annually in FSAE-Australasia, a student business and design 
+            competition where teams from universities around the world compete in the 
+            designing, manufacturing, testing and racing of small formula-style racecars.
+            </p>
+          </div>       
         </div>
-        <div className='mt-3 text-lg'>
-          <p>
-          We compete annually in FSAE-Australasia, a student business and design 
-          competition where teams from universities around the world compete in the 
-          designing, manufacturing, testing and racing of small formula-style racecars.
-          </p>
-        </div>       
-      </div>
       </div>
      
 

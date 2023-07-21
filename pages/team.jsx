@@ -6,7 +6,7 @@ import Link from 'next/link';
 import Header from '../components/Header.jsx';
 import Cards from '../components/Cards.jsx';
 
-import teamPhoto from '../public/assets/main/comp.png'
+import teamPhoto from '../public/assets/main/test.jpg'
 import bannerImg from '../public/assets/main/team-banner.jpg';
 import Briana from '../public/assets/team/briana.png';
 import Cameron from '../public/assets/team/cameron.png';
@@ -215,8 +215,8 @@ const team = () => {
         Our 2022 Competition Team
       </div>
       <hr className='w-8/12 h-0.5 mx-auto bg-motorsports-yellow border-0 rounded-2 mt-2 mb-16 dark:bg-motorsports-yellow' />
-      <div className='flex justify-center pb-20'>
-      <Image src={teamPhoto} alt='/' />
+      <div className='w-8/12 m-auto flex justify-center pb-20'>
+        <Image src={teamPhoto} alt='/' />
       </div>
     </>
   );
