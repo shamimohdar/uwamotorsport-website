@@ -1,4 +1,5 @@
 import { ChakraProvider, DarkMode } from '@chakra-ui/react';
+import { Analytics } from '@vercel/analytics/react';
 
 import NavBar from '../components/Navigation';
 import Contact from '../components/Contact';
@@ -12,6 +13,7 @@ function MyApp({ Component, pageProps }) {
         <Component {...pageProps} />
         <Contact />
       </div>
+      <Analytics />
     </ChakraProvider>
   );
 }

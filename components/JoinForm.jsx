@@ -77,7 +77,13 @@ import { faEnvelope, faLocationDot, faPhone } from '@fortawesome/free-solid-svg-
           py={{ base: 10, sm: 10, lg: 16 }}>
           <Stack spacing={{ base: 10, lg: 20 }}>
             <div className='lg:w-full w-9/12 lg:h-[60vh] h-screen'>
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13537.850176100364!2d115.8166837!3d-31.975474400000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2a32a4f1dca835c1%3A0x1cf1d4e921213b28!2sUWA%20Motorsport!5e0!3m2!1sen!2sau!4v1686298463878!5m2!1sen!2sau" style={{border:"0", width:"100%", height:"100%", "borderRadius": "12px"}} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+              <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13537.850176100364!2d115.8166837!3d-31.975474400000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2a32a4f1dca835c1%3A0x1cf1d4e921213b28!2sUWA%20Motorsport!5e0!3m2!1sen!2sau!4v1686298463878!5m2!1sen!2sau" 
+                style={{border:"0", width:"100%", height:"100%", "borderRadius": "12px"}} 
+                allowFullScreen="" 
+                loading="lazy" 
+                referrerPolicy="no-referrer-when-downgrade" 
+              />
             </div>
           </Stack>
           <div className='lg:w-full w-9/12 m-auto'>

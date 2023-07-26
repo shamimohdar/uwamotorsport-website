@@ -14,15 +14,14 @@ const about = () => {
         />
         <link rel='icon' href='/fav.png' />
       </Head> 
-    <div className="bg-black text-white">
-      <div className='w-full h-full mx-auto p-5 flex justify-center items-center pt-[120px]'>
-        <h2>Contact Us</h2>
-    </div>
-    <hr className='w-10/12 h-0.5 mx-auto bg-motorsports-yellow border-0 rounded-2 mt-2 mb-5 dark:bg-motorsports-yellow' />
-
-    {/* Send to UWAM email */}
-    <Form />
-    </div>
+      
+      <div className="bg-black text-white">
+        <div className='w-full h-full mx-auto p-5 flex justify-center items-center pt-[120px]'>
+          <h2>Contact Us</h2>
+      </div>
+      <hr className='w-10/12 h-0.5 mx-auto bg-motorsports-yellow border-0 rounded-2 mt-2 mb-5 dark:bg-motorsports-yellow' />
+      <Form />
+      </div>
     </>
   );
 };

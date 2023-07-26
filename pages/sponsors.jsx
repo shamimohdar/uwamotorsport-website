@@ -14,7 +14,12 @@ const sponsors = () => {
         <title>UWAM | Sponsors</title>
         <meta
           name='description'
-          content='I’m a front-end web developer specializing in building (and occasionally designing) exceptional digital experiences.'
+          content='The University of Western Australia Motorsport Team (UWAM) is a group of 
+          diverse and dedicated students that work together to design, build and test 
+          an electric, formula-style vehicle to participate in the Formula SAE competition. 
+          The team operates on an intensive one-year build cycle, with students 
+          manufacturing and testing a completely in-house design whilst simultaneously 
+          self-managing finances, marketing and events.'
         />
         <link rel='icon' href='/fav.png' />
       </Head>

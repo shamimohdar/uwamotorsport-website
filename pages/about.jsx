@@ -28,6 +28,7 @@ const about = () => {
       <Header 
         img={bannerImg} 
         text={"ABOUT US"} 
+        className="lg:visible hidden"
       />
 
       <div className="bg-black text-white">
@@ -67,7 +68,13 @@ const about = () => {
           {/* <video width="75%" height="75%" controls>
             <source src="/assets/main/intro-vid.mp4" type="video/mp4" />
           </video> */}
-          <iframe src="https://player.vimeo.com/video/846544255?title=0&amp;byline=0&amp;portrait=0&amp;speed=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" style={{border:"0", width:"100%", height:"100%"}} allow="autoplay; fullscreen; picture-in-picture" allowFullScreen title="intro-vid"></iframe>
+          <iframe 
+            src="https://player.vimeo.com/video/846544255?" 
+            style={{border:"0", width:"100%", height:"100%"}} 
+            allow="autoplay; fullscreen; picture-in-picture" 
+            allowFullScreen 
+            title="intro-vid" 
+          />
         </div>
         <div className='col-span-1 xl:w-full w-8/12 mx-auto xl:py-0 text-justify'>
           <p className='pb-2 text-white text-2xl font-bold'>
@@ -110,7 +117,7 @@ const about = () => {
               </p>
               <p className='pb-4'>
                   All aspects of our team functionality are managed by students. This presents a fantastic
-                  opportunity for self-development, which generally wouldn’t be available to students until
+                  opportunity for self-development, which generally wouldn&apos;t be available to students until
                   later in their careers. The volunteer aspect of the project requires students to develop
                   strong interpersonal skills to influence and motivate others, as well as to establish good
                   relationships and mutual respect in order to lead and manage effectively. 
