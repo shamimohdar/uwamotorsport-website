@@ -7,9 +7,9 @@ import Header from '../components/Header.jsx';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faShieldCheck } from '@fortawesome/free-solid-svg-icons';
 
-import bannerImg from '../public/assets/main/about-banner.jpg';
-import EditorImg from '../public/assets/main/07-car.png';
-import JessImg from '../public/assets/main/jess.png';
+import bannerImg from '../public/assets/about/about-banner.jpg';
+import EditorImg from '../public/assets/about/07-car.png';
+import JessImg from '../public/assets/about/jess.png';
 
 
 
@@ -69,11 +69,11 @@ const about = () => {
             <source src="/assets/main/intro-vid.mp4" type="video/mp4" />
           </video> */}
           <iframe 
-            src="https://player.vimeo.com/video/846544255?" 
+            src="https://player.vimeo.com/video/846544255?&portrait=0&byline=0" 
             style={{border:"0", width:"100%", height:"100%"}} 
             allow="autoplay; fullscreen; picture-in-picture" 
             allowFullScreen 
-            title="intro-vid" 
+            title="Welcome to UWA Motorsport!" 
           />
         </div>
         <div className='col-span-1 xl:w-full w-8/12 mx-auto xl:py-0 text-justify'>

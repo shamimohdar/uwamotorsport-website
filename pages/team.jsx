@@ -6,8 +6,9 @@ import Link from 'next/link';
 import Header from '../components/Header.jsx';
 import Cards from '../components/Cards.jsx';
 
-import teamPhoto from '../public/assets/main/test.jpg'
-import bannerImg from '../public/assets/main/team-banner.jpg';
+import teamPhoto from '../public/assets/team/comp_2022.jpg'
+import bannerImg from '../public/assets/team/team-banner.jpg';
+
 import Briana from '../public/assets/team/briana.png';
 import Cameron from '../public/assets/team/cameron.png';
 import Connor from '../public/assets/team/connor.png';

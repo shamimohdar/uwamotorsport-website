@@ -1,1 +1,1 @@
-public/assets/main/intro-vid.mp4 filter=lfs diff=lfs merge=lfs -text
+public/assets/about/intro-vid.mp4 filter=lfs diff=lfs merge=lfs -text

@@ -10,7 +10,7 @@ import uwaTitle from '../public/assets/sponsors/title/UWA Text - White.png'
 
 // Platinum Sponsors
 import leapImg from '../public/assets/sponsors/platinum/leap.png';
-import brooksideImg from '../public/assets/sponsors/brookside.png';
+import brooksideImg from '../public/assets/sponsors/platinum/brookside.png';
 
 // Gold Sponsors
 import marineImg from '../public/assets/sponsors/gold/gmd.png';

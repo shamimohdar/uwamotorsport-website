@@ -1,18 +1,8 @@
 import React, { useState } from 'react';
 import Image from 'next/image';
-import UWALogo from '../public/assets/main/UWA Logo.png';
+import UWALogo from '../public/assets/UWA Logo.png';
 
 export default function Contact() {
-
-  // const copyToClipboard = async (event) => {
-  
-  //    // Copy the text inside the text field
-  //   navigator.clipboard.writeText("uwamotorsportev@gmail.com");
-  
-  //   // Alert the copied text
-  //   alert("Copied to clipboard. We look forward to hearing from you soon!");
-  // }
-
 
   return (
     <footer className="bg-motorsports-blue shadow dark:bg-motorsports-blue">
@@ -24,7 +14,10 @@ export default function Contact() {
                 </div>
                 <div className="sm:flex lowercase">
                   <a className="text-gray-400 hover:text-gray-900 dark:hover:text-white">
-                    <button onClick={() => {navigator.clipboard.writeText("uwamotorsportev@gmail.com");}} className="flex">
+                    <button onClick={() => {
+                      navigator.clipboard.writeText("uwamotorsportev@gmail.com"); 
+                      alert("Copied to clipboard. We look forward to hearing from you soon!");
+                      }} className="flex">
                       <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 8 6" aria-hidden="true"><path d="m0 0h8v6h-8zm.75 .75v4.5h6.5v-4.5zM0 0l4 3 4-3v1l-4 3-4-3z"/></svg>                  <span className="sr-only">Email</span>
                       <p className="pl-2">uwamotorsportev@gmail.com</p>
                     </button>

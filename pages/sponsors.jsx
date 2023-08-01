@@ -5,7 +5,7 @@ import Image from 'next/image';
 import Header from '../components/Header.jsx';
 import Sponsors from '../components/Sponsors.jsx';
 
-import bannerImg from '../public/assets/sponsorsHeader.jpg';
+import bannerImg from '../public/assets/sponsors/sponsorsHeader.jpg';
 
 const sponsors = () => {
   return (

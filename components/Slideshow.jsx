@@ -12,11 +12,11 @@ import { faChevronDown } from '@fortawesome/free-solid-svg-icons';
 const Slideshow = ({Image1, Image2, Image3, Image4, Image5}) => {
 	//Array of Images
 	const images = [
-		"/assets/main/Img1.jpg",
-        "/assets/main/Img2.jpg",
-        "/assets/main/Img3(2).jpg",
-        "/assets/main/Img4(2).jpg",
-        "/assets/main/002 (2).jpg",
+		"/assets/home/slideshow/Slideshow1.jpg",
+        "/assets/home/slideshow/Slideshow2.jpg",
+        "/assets/home/slideshow/Slideshow3.jpg",
+        "/assets/home/slideshow/Slideshow4.jpg",
+        "/assets/home/slideshow/Slideshow5.jpg",
 	];
 
 	//These are custom properties for zoom effect while slide-show
@@ -38,28 +38,23 @@ const Slideshow = ({Image1, Image2, Image3, Image4, Image5}) => {
 	};
 	return (
         <div className="w-full h-full relative">
-		<div className="relative w-full h-screen">
-			<Zoom {...zoomInProperties}>
-				{images.map((each, index) => (
-					
-                    <div key={index} className="flex justify-center md:items-center items-start w-screen h-[screen] opacity-50">
-						{/* <img
-							className="w-screen h-screen"
-							style={{objectFit: "cover"}}
-							src={each}
-						/> */}
-						<Image src={each} width={2000} height={2000} className='object-cover w-screen h-screen' alt='/' />
+			<div className="relative w-full h-screen">
+				<Zoom {...zoomInProperties}>
+					{images.map((each, index) => (
+						
+						<div key={index} className="flex justify-center md:items-center items-start w-screen h-[screen] opacity-50">
+							<Image src={each} width={2000} height={2000} className='object-cover w-screen h-screen' alt='/' />
+						</div>
+					))}
+				</Zoom>
+				<div className="absolute inset-x-0 bottom-10 flex justify-center items-center z-10 mb-10">
+					<div className="w-10 h-10">
+						<Link scroll={false} href="#content">
+							<FontAwesomeIcon icon={faChevronDown} className="cursor-pointer" bounce size="2xl" />
+						</Link>
 					</div>
-				))}
-			</Zoom>
-            <div className="absolute inset-x-0 bottom-10 flex justify-center items-center z-10 mb-10">
-                <div className="w-10 h-10">
-                    <Link scroll={false} href="#content">
-                        <FontAwesomeIcon icon={faChevronDown} className="cursor-pointer" bounce size="2xl" />
-                    </Link>
-                </div>
-            </div>
-        </div>
+				</div>
+			</div>
         </div>
     );
 };
