@@ -5,8 +5,8 @@ import Link from 'next/link';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowAltCircleDown, faCar, faGears, faCode } from '@fortawesome/free-solid-svg-icons'
 
-import aImg from '../public/assets/main/2022-car.jpg'
-import bImg from '../public/assets/main/2021-car.jpeg'
+import aImg from '../public/potential photos/2022-car.jpg'
+import bImg from '../public/potential photos/2021-car.jpeg'
 
 const Timeline = () => {
     return (
