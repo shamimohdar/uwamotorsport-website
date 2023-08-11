@@ -1,7 +1,7 @@
 import React from 'react';
 // import * as THREE from 'three';
 // import ThreeScene from'../components/test/ThreeJS';
-import ModelViewer from '../components/test/carLoader';
+import ModelViewer from './carLoader';
 
 import car from '../public/2023-car-lowres.glb';
 // import test_object from '../public/test.glb';
