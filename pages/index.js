@@ -15,7 +15,10 @@ export default function Home() {
     <div>
       <Head>
         <title>UWAM | Home</title>
-        <meta name="description" content="We are the University of Western Australia Motorsport team." />
+        <meta name="description" 
+          content="Welcome to the UWA Motorsport Club, where passion for engineering and motorsport converge. Join our dynamic community of students pushing the limits of innovation and speed. Explore our projects, events, and achievements in the world of Formula Student and beyond." 
+          key="desc"
+        />
         <link rel="icon" href="/fav.png" />
       </Head>
       <Slideshow 

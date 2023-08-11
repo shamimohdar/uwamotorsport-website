@@ -71,6 +71,9 @@ const Navigation = () => {
               {/* <li className='ml-20 text-lg font-bold uppercase hover:border-b'>
                 <Link href='/cars'>Cars</Link>
               </li> */}
+              {/* <li className='ml-20 text-lg font-bold uppercase hover:border-b'>
+                <Link href='/test'>Test Page</Link>
+              </li> */}
               <li className='ml-20 text-lg font-bold uppercase hover:border-b'>
                 <Link href='/sponsors'>Sponsors</Link>
               </li>
@@ -144,6 +147,11 @@ const Navigation = () => {
                 {/* <Link href='/cars'>
                   <li onClick={() => setNav(false)} className='py-4 text-sm'>
                     Cars
+                  </li>
+                </Link> */}
+                {/* <Link href='/test'>
+                  <li onClick={() => setNav(false)} className='py-4 text-sm'>
+                    Test Page
                   </li>
                 </Link> */}
                 <Link href='/sponsors'>

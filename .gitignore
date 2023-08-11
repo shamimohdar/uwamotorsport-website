@@ -1,2 +1,5 @@
+*.glb
 node_modules
 .next
+/components/test/
+/pages/test.jsx

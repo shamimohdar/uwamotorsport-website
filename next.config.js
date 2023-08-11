@@ -1,6 +1,23 @@
-/** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-}
 
-module.exports = nextConfig
+  webpack: (config) => {
+    config.module.rules.push({
+      test: /\.(glb)$/i,
+      use: [
+        {
+          loader: 'file-loader',
+          options: {
+            publicPath: '/_next/static/',
+            outputPath: 'static/',
+            name: '[name].[hash].[ext]',
+          },
+        },
+      ],
+    });
+
+    return config;
+  },
+};
+
+module.exports = nextConfig;
