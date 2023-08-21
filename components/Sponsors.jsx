@@ -24,6 +24,7 @@ import caswaImg from '../public/assets/sponsors/gold/caswa.png'
 // Silver Sponsors
 import ariesLogo from '../public/assets/sponsors/silver/aries-rail.png';
 import autronicsLogo from '../public/assets/sponsors/silver/autronics.png';
+import paintLogo from '../public/assets/sponsors/silver/platinum-paint-supplies.png';
 import primeroLogo from '../public/assets/sponsors/silver/primero.png';
 import prohelionLogo from '../public/assets/sponsors/silver/prohelion.png';
 import rapidLogo from '../public/assets/sponsors/silver/rapidharness.png';
@@ -268,6 +269,12 @@ const Sponsors = () => {
               title='SafeActions'
               backgroundImg={safeLogo}
               projectUrl='https://www.safeactions.com.au/'
+              tier='silver'
+            />
+            <SponsorItem
+              title='Platinum Auto Paints'
+              backgroundImg={paintLogo}
+              projectUrl='https://platinumpaints.com.au/'
               tier='silver'
             />
             {/* <SponsorItem
