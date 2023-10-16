@@ -1,6 +1,6 @@
 {
-  "name": "portfolio-nextjs",
-  "version": "0.1.0",
+  "name": "uwam-website",
+  "version": "1.7",
   "private": true,
   "scripts": {
     "dev": "next dev",

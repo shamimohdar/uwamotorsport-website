@@ -3,7 +3,7 @@ import Link from 'next/link';
 import React, { useState, useEffect } from 'react';
 import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from 'react-icons/ai';
 import { FaLinkedinIn, FaFacebook, FaInstagram } from 'react-icons/fa';
-import NavLogo from '../public/assets/navLogo.png'
+import NavLogo from '../public/assets/navLogoTest.png'
 
 const Navigation = () => {
   const [nav, setNav] = useState(false);
@@ -42,11 +42,11 @@ const Navigation = () => {
         className= {
           shadow
             ? 'fixed w-full h-20 shadow-xl z-[100] ease-in-out duration-300'
-            : 'fixed w-full h-20 z-[100]'
+            : 'fixed w-full h-20 z-[100] ease-in-out duration-300'
         }
       >
         <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
-          <div className='scale-100'>
+          <div className='scale-100 w-44'>
             <Link href='/'>
               <Image
                 style={logoStyle}
@@ -107,7 +107,7 @@ const Navigation = () => {
             }
           >
             <div>
-              <div className='flex w-full items-center justify-between'>
+              <div className='flex w-44 items-center justify-between'>
                 <Link href='/'>
                   <Image
                     src={NavLogo}

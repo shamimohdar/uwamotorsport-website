@@ -55,7 +55,7 @@ const team = () => {
       </div>
       <hr className='w-8/12 h-0.5 mx-auto bg-motorsports-yellow border-0 rounded-2 mt-2 mb-10 dark:bg-motorsports-yellow' />
       <div id='projects' className='w-full'>
-        <div className='max-w-[1240px] mx-auto px-2 pt-10 pb-24'>
+        <div className='max-w-[1040px] mx-auto px-2 pt-10 pb-24'>
           <div className='grid md:grid-cols-3 gap-16'>
             <Cards
               backgroundImg={Jonathon}
@@ -97,7 +97,7 @@ const team = () => {
       <hr className='w-8/12 h-0.5 mx-auto bg-motorsports-yellow border-0 rounded-2 mt-2 mb-10 dark:bg-motorsports-yellow' />
 
       <div id='projects' className='w-full'>
-        <div className='max-w-[1240px] mx-auto px-2 py-16'>
+        <div className='max-w-[1040px] mx-auto px-2 py-16'>
           <div className='grid md:grid-cols-3 gap-16'>
             <Cards
               backgroundImg={Zack}
@@ -121,7 +121,7 @@ const team = () => {
         </div>
       </div>
       <div id='projects' className='w-full'>
-        <div className='max-w-[1240px] mx-auto px-2 pb-24'>
+        <div className='max-w-[1040px] mx-auto px-2 pb-24'>
           <div className='grid md:grid-cols-3 gap-16'>
             <Cards
               backgroundImg={Connor}
@@ -164,7 +164,7 @@ const team = () => {
       <hr className='w-8/12 h-0.5 mx-auto bg-motorsports-yellow border-0 rounded-2 mt-2 mb-10 dark:bg-motorsports-yellow' />
 
       <div id='projects' className='w-full'>
-        <div className='max-w-[1240px] mx-auto px-2 pt-16'>
+        <div className='max-w-[1040px] mx-auto px-2 pt-16'>
           <div className='grid md:grid-cols-3 gap-16'>
             <Cards
               backgroundImg={Rob}
@@ -188,7 +188,7 @@ const team = () => {
         </div>
       </div>
       <div id='projects' className='w-full'>
-        <div className='max-w-[1240px] mx-auto px-2 py-16'>
+        <div className='max-w-[1040px] mx-auto px-2 py-16'>
           <div className='grid md:grid-cols-3 gap-16'>
             <Cards
               backgroundImg={Cameron}

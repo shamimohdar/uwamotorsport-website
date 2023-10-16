@@ -188,7 +188,7 @@ const Sponsors = () => {
           </div>
         </div>
 
-        <div className='grid sm:grid-cols-2 gap-16 py-8 w-[70%] m-auto'>  
+        <div className='grid sm:grid-cols-3 gap-16 py-8'>  
           <div>
             <SponsorItem
               title='C.D. Dodd Scrap Metal Recyclers'
@@ -211,12 +211,24 @@ const Sponsors = () => {
               tier='gold'
             />
             <p className='text-justify text-lg pt-4'>
-            CASWA specilaises in improving engineering asset management 
+            CASWA specialises in improving engineering asset management 
             systems and processes. They develop bespoke software and 
             hardware to collect, analyse and disseminate data crucial to engineering applications.
             </p>
           </div>
-
+          <div>
+            <SponsorItem
+                title='Platinum Auto Paints'
+                backgroundImg={paintLogo}
+                projectUrl='https://platinumpaints.com.au/'
+                tier='silver'
+              />
+            <p className='text-justify text-lg pt-4'>
+              Platinum Auto Paints is an Australian family-owned distributor of paints and surface 
+              finishing supplies. Platinum Auto Paints have two decades worth of experience and 
+              training, providing quality service, products and advice.
+            </p>
+          </div>
         </div>
       </div>
 
@@ -253,6 +265,8 @@ const Sponsors = () => {
               projectUrl='https://miningandhydraulics.com.au/'
               tier='silver'
             />
+          </div>
+          <div className='grid sm:grid-cols-3 gap-16 py-8 w-[85%] m-auto'>  
             <SponsorItem
               title='Rapid Harness'
               backgroundImg={rapidLogo}
@@ -271,18 +285,6 @@ const Sponsors = () => {
               projectUrl='https://www.safeactions.com.au/'
               tier='silver'
             />
-            <SponsorItem
-              title='Platinum Auto Paints'
-              backgroundImg={paintLogo}
-              projectUrl='https://platinumpaints.com.au/'
-              tier='silver'
-            />
-            {/* <SponsorItem
-              title='TKD'
-              backgroundImg={safeLogo}
-              projectUrl='https://www.safeactions.com.au/'
-              tier='silver'
-            /> */}
         </div>
       </div>
 
@@ -316,6 +318,18 @@ const Sponsors = () => {
             tier='bronze'
           />
           <SponsorItem
+            title='AT&M'
+            backgroundImg=''
+            projectUrl='https://www.atmwa.com.au/'
+            tier='bronze'
+          />
+          <SponsorItem
+            title='Autobody Supplies'
+            backgroundImg=''
+            projectUrl='https://www.autobodysupplies.com.au/'
+            tier='bronze'
+          />
+          <SponsorItem
             title='Aviation Composites'
             backgroundImg=''
             projectUrl='https://www.aviationcomposites.com.au/'
@@ -331,6 +345,12 @@ const Sponsors = () => {
             title='Calspan'
             backgroundImg=''
             projectUrl='https://www.aviationcomposites.com.au/'
+            tier='bronze'
+          />
+          <SponsorItem
+            title='Corsa Technic'
+            backgroundImg=''
+            projectUrl='https://www.corsa-technic.com/'
             tier='bronze'
           />
           <SponsorItem
@@ -379,6 +399,12 @@ const Sponsors = () => {
             title='Uniforms West'
             backgroundImg=''
             projectUrl='https://www.willapparel.com.au/'
+            tier='bronze'
+          />
+          <SponsorItem
+            title='Vivid Finishing'
+            backgroundImg=''
+            projectUrl='https://www.facebook.com/p/Vivid-Finishing-100078767230318/'
             tier='bronze'
           />
         </div>
