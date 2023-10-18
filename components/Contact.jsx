@@ -13,7 +13,7 @@ export default function Contact() {
                   <h2>Contact Us</h2>
                 </div>
                 <div className="sm:flex lowercase">
-                  <a className="text-gray-400 hover:text-gray-900 dark:hover:text-white">
+                  <div className="text-gray-400 hover:text-gray-900 dark:hover:text-white"></div>
                     <button onClick={() => {
                       navigator.clipboard.writeText("uwamotorsportev@gmail.com"); 
                       alert("Copied to clipboard. We look forward to hearing from you soon!");
@@ -21,7 +21,7 @@ export default function Contact() {
                       <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 8 6" aria-hidden="true"><path d="m0 0h8v6h-8zm.75 .75v4.5h6.5v-4.5zM0 0l4 3 4-3v1l-4 3-4-3z"/></svg>                  <span className="sr-only">Email</span>
                       <p className="pl-2">uwamotorsportev@gmail.com</p>
                     </button>
-                  </a>
+                  </div>
                 </div>
                 <div className="flex lowercase">
                   <a href="https://www.facebook.com/uwamotorsport" target='_blank' className="text-gray-400 hover:text-gray-900 dark:hover:text-white">
