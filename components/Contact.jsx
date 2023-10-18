@@ -13,7 +13,7 @@ export default function Contact() {
                   <h2>Contact Us</h2>
                 </div>
                 <div className="sm:flex lowercase">
-                  <div className="text-gray-400 hover:text-gray-900 dark:hover:text-white"></div>
+                  <div className="text-gray-400 hover:text-gray-900 dark:hover:text-white">
                     <button onClick={() => {
                       navigator.clipboard.writeText("uwamotorsportev@gmail.com"); 
                       alert("Copied to clipboard. We look forward to hearing from you soon!");
