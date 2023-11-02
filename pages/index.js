@@ -14,11 +14,12 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>UWAM | Home</title>
+        <title>UWA Motorsport</title>
         <meta name="description" 
-          content="Welcome to the UWA Motorsport Club, where passion for engineering and motorsport converge. Join our dynamic community of students pushing the limits of innovation and speed. Explore our projects, events, and achievements in the world of Formula Student and beyond." 
+          content="The UWA Motorsports Team has been operating since 2001 and has been building electric vehicles since 2017. We compete annually at FSAE-Australasia in ..." 
           key="desc"
         />
+        <meta name="keywords" content="uwam, uwa motorsport, uwa motorsports, motorsport uwa, motorsport, uwa racing, FSAE, formula sae, uwa sae" />
         <link rel="icon" href="/fav.png" />
       </Head>
       <Slideshow 
