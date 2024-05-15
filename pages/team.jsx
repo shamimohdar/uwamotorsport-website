@@ -6,24 +6,24 @@ import Link from 'next/link';
 import Header from '../components/Header.jsx';
 import Cards from '../components/Cards.jsx';
 
-import teamPhoto from '../public/assets/team/comp_2022.jpg'
-import bannerImg from '../public/assets/team/team-banner.jpg';
+import teamPhoto from '../public/assets/team/2023/comp_2022.jpg'
+import bannerImg from '../public/assets/team/2023/team-banner.jpg';
 
-import Briana from '../public/assets/team/briana.png';
-import Cameron from '../public/assets/team/cameron.png';
-import Connor from '../public/assets/team/connor.png';
-import Gabe from '../public/assets/team/gabe.png';
-import Jenks from '../public/assets/team/jenks.png';
-import Jess from '../public/assets/team/jess.jpg';
-import Jonathon from '../public/assets/team/jonathon.png';
-import Julian from '../public/assets/team/julian.jpg'
-import Nathan from '../public/assets/team/nathan.png';
-import Rob from '../public/assets/team/rob.png';
-import Sharif from'../public/assets/team/sharif.png';
-import Sonya from '../public/assets/team/sonya.png';
-import Tom from '../public/assets/team/tom.png';
-import Webb from '../public/assets/team/webb.png';
-import Zack from'../public/assets/team/zack.png';
+import Briana from '../public/assets/team/2023/briana.png';
+import Cameron from '../public/assets/team/2023/cameron.png';
+import Connor from '../public/assets/team/2023/connor.png';
+import Gabe from '../public/assets/team/2023/gabe.png';
+import Jenks from '../public/assets/team/2023/jenks.png';
+import Jess from '../public/assets/team/2023/jess.jpg';
+import Jonathon from '../public/assets/team/2023/jonathon.png';
+import Julian from '../public/assets/team/2023/julian.jpg'
+import Nathan from '../public/assets/team/2023/nathan.png';
+import Rob from '../public/assets/team/2023/rob.png';
+import Sharif from'../public/assets/team/2023/sharif.png';
+import Sonya from '../public/assets/team/2023/sonya.png';
+import Tom from '../public/assets/team/2023/tom.png';
+import Webb from '../public/assets/team/2023/webb.png';
+import Zack from'../public/assets/team/2023/zack.png';
 
 const team = () => {
   return (

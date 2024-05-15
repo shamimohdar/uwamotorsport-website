@@ -3,7 +3,7 @@ import Head from 'next/head';
 import Image from 'next/image';
 
 import Header from '../components/Header.jsx';
-import Sponsors from '../components/Sponsors.jsx';
+import Sponsors from '../components/Sponsors2024.jsx';
 
 import bannerImg from '../public/assets/sponsors/sponsorsHeader.jpg';
 

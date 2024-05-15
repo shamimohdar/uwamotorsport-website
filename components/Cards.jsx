@@ -2,10 +2,10 @@ import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 
-const Cards = ({backgroundImg, linkedIn, name, role}) => {
+const Cards = ({backgroundImg, linkedIn, name, role, year}) => {
   return (
     <div className='relative items-center justify-center text-center rounded-xl group'>
-    <Image className='rounded-3xl object-cover mx-auto w-[200px] h-[300px]' src={backgroundImg} alt='/' /> 
+    <Image className='rounded-3xl object-cover mx-auto w-[400px] h-[400px]' src={backgroundImg} alt='/' /> 
     {linkedIn != '' && (
       <div className='hidden group-hover:block absolute top-[70%] left-[50%] translate-x-[-50%] translate-y-[-50%]'>
         <Link href={linkedIn} target="_blank" rel="noopener noreferrer">

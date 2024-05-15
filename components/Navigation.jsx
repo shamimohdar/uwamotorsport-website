@@ -2,7 +2,6 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React, { useState, useEffect } from 'react';
 import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from 'react-icons/ai';
-import { FaLinkedinIn, FaFacebook, FaInstagram } from 'react-icons/fa';
 import NavLogo from '../public/assets/navLogoTest.png'
 
 const Navigation = () => {

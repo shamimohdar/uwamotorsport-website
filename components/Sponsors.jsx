@@ -344,7 +344,7 @@ const Sponsors = () => {
           <SponsorItem
             title='Calspan'
             backgroundImg=''
-            projectUrl='https://www.aviationcomposites.com.au/'
+            projectUrl='https://calspan.com/'
             tier='bronze'
           />
           <SponsorItem

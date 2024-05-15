@@ -4,11 +4,7 @@ import Head from 'next/head';
 
 import Header from '../components/Header.jsx';
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faShieldCheck } from '@fortawesome/free-solid-svg-icons';
-
 import bannerImg from '../public/assets/about/about-banner.jpg';
-import EditorImg from '../public/assets/about/07-car.png';
 import JessImg from '../public/assets/about/jess.png';
 
 
@@ -20,7 +16,7 @@ const about = () => {
         <title>UWAM | About Us</title>
         <meta
           name='description'
-          content='I’m a front-end web developer specializing in building (and occasionally designing) exceptional digital experiences.'
+          content='I&apos;m a front-end web developer specializing in building (and occasionally designing) exceptional digital experiences.'
         />
         <link rel='icon' href='/fav.png' />
       </Head>
@@ -68,6 +64,9 @@ const about = () => {
           {/* <video width="75%" height="75%" controls>
             <source src="/assets/main/intro-vid.mp4" type="video/mp4" />
           </video> */}
+
+
+          {/* TODO: Get rid of outdated video and fill space with text */}
           <iframe 
             src="https://player.vimeo.com/video/846544255?&portrait=0&byline=0" 
             style={{border:"0", width:"100%", height:"100%"}} 
