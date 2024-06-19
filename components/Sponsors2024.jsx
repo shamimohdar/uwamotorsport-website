@@ -27,7 +27,7 @@ import canvaLogo from '../public/assets/sponsors/2024/silver/Canva Logo White.pn
 import fuzeLogo from '../public/assets/sponsors/2024/silver/Fuze Logo White.png';
 import kissLogo from '../public/assets/sponsors/2024/silver/KISSsoft Logo White.png';
 import loctiteLogo from '../public/assets/sponsors/2024/silver/loctite-logo-white.png';
-import primeroLogo from '../public/assets/sponsors/2024/silver/primero-white.png';
+import primeroLogo from '../public/assets/sponsors/2024/silver/Primero-white.png';
 import rapidLogo from '../public/assets/sponsors/2024/silver/Rapid-Harness-white.png';
 import sealLogo from '../public/assets/sponsors/2024/silver/seal-solutions-white.png';
 import sportLogo from '../public/assets/sponsors/2024/silver/UWA-Sport-Logo.png';
