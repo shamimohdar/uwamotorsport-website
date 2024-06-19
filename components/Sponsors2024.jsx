@@ -89,9 +89,9 @@ const Sponsors = () => {
 
           <div className=' lg:order-last'>
           <SponsorItem
-            title='Brookside Energy'
+            title='Savic Motorcycles'
             backgroundImg={savicImg}
-            projectUrl='https://brookside-energy.com.au/'
+            projectUrl='https://www.savicmotorcycles.com/'
             tier='platinum'
           />
           </div>
@@ -218,7 +218,7 @@ const Sponsors = () => {
     <div className='lg:max-w-[1240px] w-9/12 mx-auto px-2 py-16'>
       <h2 className='text-center pb-2'>Silver Sponsors</h2>
       <hr className='lg:w-5/12 w-10/12 h-0.5 mx-auto bg-motorsports-yellow border-0 rounded-2 mt-2 mb-5 dark:bg-motorsports-yellow' />
-        <div className='grid sm:grid-cols-4 gap-16 py-8'>
+        <div className='grid sm:grid-cols-5 gap-16 py-8'>
             
             <SponsorItem
               title='Calm Aluminium'
@@ -243,15 +243,15 @@ const Sponsors = () => {
               backgroundImg={kissLogo}
               projectUrl='https://www.kisssoft.com/en'
               tier='silver'
-            />
-          </div>
-          <div className='grid sm:grid-cols-4 gap-16 py-8'>  
+            />  
             <SponsorItem
               title='Loctite'
               backgroundImg={loctiteLogo}
               projectUrl='www.henkel-adhesives.com'
               tier='silver'
             />
+          </div>
+          <div className='grid sm:grid-cols-4 gap-16 py-8'>
             <SponsorItem
               title='Primero'
               backgroundImg={primeroLogo}
@@ -261,7 +261,7 @@ const Sponsors = () => {
             <SponsorItem
               title='Rapid Harness'
               backgroundImg={rapidLogo}
-              projectUrl='https://www.safeactions.com.au/'
+              projectUrl='https://rapidharness.com/'
               tier='silver'
             />
             <SponsorItem
@@ -269,29 +269,21 @@ const Sponsors = () => {
               backgroundImg={sealLogo}
               projectUrl='https://www.sealsolutionsaustralia.com.au/'
               tier='silver'
-            />
+            />  
+            <SponsorItem
+                title='Switch Technologies'
+                backgroundImg={switchLogo}
+                projectUrl='https://www.switchtechnologies.net/'
+                tier='silver'
+              />
           </div>
-          <div className='grid sm:grid-cols-3 gap-16 py-8 w-[85%] m-auto'>  
-          <SponsorItem
-              title='Switch Technologies'
-              backgroundImg={switchLogo}
-              projectUrl='https://www.switchtechnologies.net/'
-              tier='silver'
-            />
+          <div className='grid sm:grid-cols-4 gap-16 py-8'>
             <SponsorItem
               title='Tool Kit Depot'
               backgroundImg={toolkitLogo}
-              projectUrl='https://primero.com.au/'
+              projectUrl='https://toolkitdepot.com.au/'
               tier='silver'
-            />
-            <SponsorItem
-              title='Rapid Harness'
-              backgroundImg={rapidLogo}
-              projectUrl='https://www.safeactions.com.au/'
-              tier='silver'
-            />
-          </div>
-          <div className='grid sm:grid-cols-3 gap-16 py-8 w-[85%] m-auto'>  
+            />  
             <SponsorItem
               title='UWA Sport'
               backgroundImg={sportLogo}
