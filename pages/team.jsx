@@ -32,7 +32,7 @@ const team = () => {
         <title>UWAM | Team</title>
         <meta
           name='description'
-          content='I’m a front-end web developer specializing in building (and occasionally designing) exceptional digital experiences.'
+          content="The UWA Motorsports Team has been operating since 2001 and has been building electric vehicles since 2017. We compete annually at FSAE-Australasia in ..."
         />
         <link rel='icon' href='/fav.png' />
       </Head>

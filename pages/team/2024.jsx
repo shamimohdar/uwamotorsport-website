@@ -70,7 +70,7 @@ const team = () => {
         <title>UWAM | Team</title>
         <meta
           name='description'
-          content='I’m a front-end web developer specializing in building (and occasionally designing) exceptional digital experiences.'
+          content='Made by Shami Mohdar :)'
         />
         <link rel='icon' href='/fav.png' />
       </Head>
@@ -130,7 +130,7 @@ const team = () => {
         <p>
           The business team in a Formula Student team manages finances, secures sponsorships, and 
           handles marketing and public relations. They ensure the team has the necessary resources 
-          to design and race the car, while also promoting the team's brand and securing partnerships 
+          to design and race the car, while also promoting the team&apos;s brand and securing partnerships 
           crucial for competition success.
         </p>
       </div>
@@ -328,7 +328,7 @@ const team = () => {
         The track team plays a crucial role in ensuring the smooth and efficient operation of track days. 
         Their primary responsibility is to organize and manage these events, coordinating all necessary 
         logistics to ensure they run seamlessly. The team works closely with the technical team to execute 
-        testing items, ensuring technical requirements or tests are properly integrated into the day's schedule. 
+        testing items, ensuring technical requirements or tests are properly integrated into the day&apos;s schedule. 
         By effectively managing these elements, the track team ensures that the track days are productive, 
         safe, and meet the goals of team.
         </p>
