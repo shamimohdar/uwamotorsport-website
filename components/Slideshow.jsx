@@ -12,11 +12,11 @@ import { faChevronDown } from '@fortawesome/free-solid-svg-icons';
 const Slideshow = ({Image1, Image2, Image3, Image4, Image5}) => {
 	//Array of Images
 	const images = [
-		"/assets/home/slideshow/Slideshow1.jpg",
-        "/assets/home/slideshow/Slideshow2.jpg",
-        "/assets/home/slideshow/Slideshow3.jpg",
-        "/assets/home/slideshow/Slideshow4.jpg",
-        "/assets/home/slideshow/Slideshow5.jpg",
+		"/assets/home/2024/car test.jpg",
+        "/assets/home/2024/Home Slideshow 2.jpg",
+        "/assets/home/2024/Home Slideshow 3.jpg",
+        "/assets/home/2024/Home Slideshow 4.jpg",
+        "/assets/home/2024/Home Slideshow 5.jpg"
 	];
 
 	//These are custom properties for zoom effect while slide-show

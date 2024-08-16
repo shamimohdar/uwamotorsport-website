@@ -3,8 +3,8 @@ import Slideshow from "../components/Slideshow"
 import React, { useState, useEffect } from 'react';
 import Image from 'next/image';
 
-import Img1 from '../public/assets/home/sharif.jpg';
-import Img2 from '../public/assets/home/smile.jpg';
+import Img1 from '../public/assets/home/2024/Home_The_Competition.jpg';
+import Img2 from '../public/assets/home/2024/Who we are replacement.jpg';
 
 import '@fortawesome/fontawesome-svg-core/styles.css';
 import { config } from '@fortawesome/fontawesome-svg-core';

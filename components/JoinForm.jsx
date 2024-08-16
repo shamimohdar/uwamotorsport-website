@@ -220,7 +220,7 @@ import { faEnvelope, faLocationDot, faPhone } from '@fortawesome/free-solid-svg-
                 <div className='w-6 h-6'>
                   <FontAwesomeIcon icon={faLocationDot} size="lg" />
                 </div>
-                  <p className='pl-4 text-lg'>25 Fairway, Crawley WA 6009</p>
+                  <p className='pl-4 text-lg'>35 Stirling Hwy, Crawley WA 6009</p>
                 </div>
                 <div className='py-8 px-10 flex items-center'>
                 <div className='w-6 h-6'>

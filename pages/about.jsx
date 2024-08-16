@@ -4,8 +4,8 @@ import Head from 'next/head';
 
 import Header from '../components/Header.jsx';
 
-import bannerImg from '../public/assets/about/about-banner.jpg';
-import JessImg from '../public/assets/about/jess.png';
+import bannerImg from '../public/assets/about/2024/About us top banner.jpg';
+import TomImg from '../public/assets/team/2024/tom happy.jpg';
 
 
 
@@ -37,14 +37,14 @@ const about = () => {
         The University of Western Australia Motorsport Team (UWAM) is a group of diverse and 
         dedicated students that work together to design, build and test an electric formula-style 
         vehicle to participate in the Formula SAE competition. The team strive for excellence each year with 
-        three key goals in mind:
+        five core values in mind:
         </p>
       </div>
       <div className=' w-8/12 m-auto gap-8 text-2xl font-bold pb-5'>
         <p className='lg:block hidden py-2 text-white text-center lg:pb-0 pb-6'>
-          Reliability - Justification - Testing
+          Competition - Education - Innovation - Community - Challenge
         </p>
-        <p className='lg:hidden visible text-white text-center py-4'>
+        {/* <p className='lg:hidden visible text-white text-center py-4'>
           Reliability
         </p>
         <p className='lg:hidden visible text-white text-center py-4'>
@@ -52,7 +52,7 @@ const about = () => {
         </p>
         <p className='lg:hidden visible text-white text-center py-4'>
           Testing
-        </p>
+        </p> */}
       </div>
 
       
@@ -79,14 +79,14 @@ const about = () => {
           <p className='pb-2 text-white text-2xl font-bold'>
             Who are we?
           </p>
-          <div className='mb-3 text-xl'>
+          <div className='mb-3 text-lg'>
             <p>
               We are a group of students from UWA comprised of up-and-coming talented 
               engineers, technicians and business professionals that strive to push the 
               limits of engineering to produce world-class electric racecars. 
             </p> 
           </div>
-          <div className='mt-3 text-xl'>
+          <div className='mt-3 text-lg'>
             <p>
             We compete annually in FSAE-Australasia, a student business and design 
             competition where teams from universities around the world compete in the 
@@ -131,10 +131,10 @@ const about = () => {
 
             <div className='col-span-1 w-full h-auto m-auto shadow-gray-400 py-5'>
               <div className='flex items-right justify-right object-right'>
-              <Image src={JessImg} alt='/' />
+              <Image src={TomImg} alt='/' />
               </div>
                 <div className='pt-10 text-white text-3xl font-bold text-left'>
-                <p>Jess Gugliotta</p>
+                <p>Thomas Webb</p>
               </div>
               <div className='py-2 text-white text-2xl pb-10 text-left'>
                 <p>Project Manager</p>

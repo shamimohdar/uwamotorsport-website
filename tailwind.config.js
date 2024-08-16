@@ -7,9 +7,9 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'bannerImg': "url('../public/assets/sponsors/parallax1.jpg')",
-        'bannerImg2': "url('../public/assets/sponsors/parallax2.jpg')",
-        'bannerImg3': "url('../public/assets/sponsors/parallax3.jpg')",
+        'bannerImg': "url('../public/assets/sponsors/2024/Sponsor Image 2.jpg')",
+        'bannerImg2': "url('../public/assets/sponsors/2024/Sponsor Image 3.jpg')",
+        'bannerImg3': "url('../public/assets/sponsors/2024/Sponsor Image 4.jpg')",
       },
       colors: {
         'motorsports-yellow': '#FFD600',
