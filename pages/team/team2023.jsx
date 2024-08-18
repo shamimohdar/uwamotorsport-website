@@ -6,24 +6,24 @@ import Link from 'next/link';
 import Header from '../../components/Header.jsx';
 import Cards from '../../components/Cards.jsx';
 
-import teamPhoto from '../public/assets/team/2024/23 Team Photo.jpg';
-import bannerImg from '../public/assets/team/2024/Team page top banner.jpg';
+import teamPhoto from '../../public/assets/team/2023/comp_2022.jpg';
+import bannerImg from '../../public/assets/team/2023/team-banner.jpg';
 
-import Briana from '../public/assets/team/2023/briana.png';
-import Cameron from '../public/assets/team/2023/cameron.png';
-import Connor from '../public/assets/team/2023/connor.png';
-import Gabe from '../public/assets/team/2023/gabe.png';
-import Jenks from '../public/assets/team/2023/jenks.png';
-import Jess from '../public/assets/team/2023/jess.jpg';
-import Jonathon from '../public/assets/team/2023/jonathon.png';
-import Julian from '../public/assets/team/2023/julian.jpg'
-import Nathan from '../public/assets/team/2023/nathan.png';
-import Rob from '../public/assets/team/2023/rob.png';
-import Sharif from'../public/assets/team/2023/sharif.png';
-import Sonya from '../public/assets/team/2023/sonya.png';
-import Tom from '../public/assets/team/2023/tom.png';
-import Webb from '../public/assets/team/2023/webb.png';
-import Zack from'../public/assets/team/2023/zack.png';
+import Briana from '../../public/assets/team/2023/briana.png';
+import Cameron from '../../public/assets/team/2023/cameron.png';
+import Connor from '../../public/assets/team/2023/connor.png';
+import Gabe from '../../public/assets/team/2023/gabe.png';
+import Jenks from '../../public/assets/team/2023/jenks.png';
+import Jess from '../../public/assets/team/2023/jess.jpg';
+import Jonathon from '../../public/assets/team/2023/jonathon.png';
+import Julian from '../../public/assets/team/2023/julian.jpg'
+import Nathan from '../../public/assets/team/2023/nathan.png';
+import Rob from '../../public/assets/team/2023/rob.png';
+import Sharif from'../../public/assets/team/2023/sharif.png';
+import Sonya from '../../public/assets/team/2023/sonya.png';
+import Tom from '../../public/assets/team/2023/tom.png';
+import Webb from '../../public/assets/team/2023/webb.png';
+import Zack from'../../public/assets/team/2023/zack.png';
 
 const team = () => {
   return (
@@ -213,7 +213,7 @@ const team = () => {
       </div>
 
       <div className='w-9/12 mx-auto text-center font-bold text-4xl pt-10 pb-8'>
-        Our 2022 Competition Team
+        Our 2021 Competition Team
       </div>
       <hr className='w-8/12 h-0.5 mx-auto bg-motorsports-yellow border-0 rounded-2 mt-2 mb-16 dark:bg-motorsports-yellow' />
       <div className='w-8/12 m-auto flex justify-center pb-20'>
