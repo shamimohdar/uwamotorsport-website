@@ -65,7 +65,7 @@ const Navigation = () => {
                 <Link href='/about'>About</Link>
               </li>
               <li className='ml-20 text-lg font-bold uppercase hover:border-b'>
-                <Link href='/team/2024'>Team</Link>
+                <Link href='/team'>Team</Link>
               </li>
               {/* <li className='ml-20 text-lg font-bold uppercase hover:border-b'>
                 <Link href='/cars'>Cars</Link>
@@ -138,7 +138,7 @@ const Navigation = () => {
                     About
                   </li>
                 </Link>
-                <Link href='/team/2024'>
+                <Link href='/team'>
                   <li onClick={() => setNav(false)} className='py-4 text-sm'>
                     Team
                   </li>
