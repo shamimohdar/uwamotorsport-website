@@ -6,8 +6,8 @@ const TeamPhotos2024 = ({grr, happy, linkedIn, name, role}) => {
   return (
     <div className='relative items-center justify-center text-center rounded-xl group'>
 
-      <Image src={grr} className='rounded-3xl object-cover mx-auto w-[400px] h-[400px] transition-transform duration-300 transform hover:scale-110' alt='/' /> 
-      <Image src={happy} className='rounded-3xl object-cover absolute mx-auto w-[400px] h-[400px] absolute top-0 left-0 opacity-0 transition-opacity duration-300 transform hover:opacity-100' alt='/' /> 
+      <Image src={grr} className='rounded-3xl object-cover mx-auto transition-transform duration-300 transform hover:scale-110' alt='/' /> 
+      <Image src={happy} className='rounded-3xl object-cover absolute mx-auto absolute top-0 left-0 opacity-0 transition-opacity duration-300 transform hover:opacity-100' alt='/' /> 
       {linkedIn != '' && (
         <div className='hidden group-hover:block absolute top-[70%] left-[50%] translate-x-[-50%] translate-y-[-50%]'>
           <Link href={linkedIn} target="_blank" rel="noopener noreferrer">

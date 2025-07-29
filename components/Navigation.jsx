@@ -19,25 +19,25 @@ const Navigation = () => {
     transform: logo ? "1.5" : "1"
   }
 
-  useEffect(() => {
-    const handleShadow = () => {
-      if (window.scrollY >= 20) {
-        setShadow(true);
-        setNavBg(true);
-        setLogo(true);
-      } else {
-        setShadow(false);
-        setNavBg(false); 
-        setLogo(false);
-      }
-    };
-    window.addEventListener('scroll', handleShadow);
-  }, []);
+  // useEffect(() => {
+  //   const handleShadow = () => {
+  //     if (window.scrollY >= 20) {
+  //       setShadow(true);
+  //       setNavBg(true);
+  //       setLogo(true);
+  //     } else {
+  //       setShadow(false);
+  //       setNavBg(false); 
+  //       setLogo(false);
+  //     }
+  //   };
+  //   window.addEventListener('scroll', handleShadow);
+  // }, []);
 
   return (
     <div>
       <div
-        style={{ backgroundColor: navBg ? '#000000' : "transparent", zIndex: "20" }}
+        style={{ background: 'linear-gradient(to bottom, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%)' }}
         className= {
           shadow
             ? 'fixed w-full h-20 shadow-xl z-[100] ease-in-out duration-300'
@@ -58,25 +58,25 @@ const Navigation = () => {
           
           <div>
             <ul style={{ color: `${linkColor}` }} className='hidden lg:flex'>
-              <li className='ml-20 text-lg font-bold uppercase hover:border-b'>
+              <li className='ml-12 text-lg font-bold uppercase hover:border-b'>
                 <Link href='/'>Home</Link>
               </li>
-              <li className='ml-20 text-lg font-bold uppercase hover:border-b'>
+              <li className='ml-12 text-lg font-bold uppercase hover:border-b'>
                 <Link href='/about'>About</Link>
               </li>
-              <li className='ml-20 text-lg font-bold uppercase hover:border-b'>
+              <li className='ml-12 text-lg font-bold uppercase hover:border-b'>
                 <Link href='/team'>Team</Link>
               </li>
-              {/* <li className='ml-20 text-lg font-bold uppercase hover:border-b'>
+              {/* <li className='ml-12 text-lg font-bold uppercase hover:border-b'>
                 <Link href='/cars'>Cars</Link>
               </li> */}
-              {/* <li className='ml-20 text-lg font-bold uppercase hover:border-b'>
+              {/* <li className='ml-12 text-lg font-bold uppercase hover:border-b'>
                 <Link href='/test'>Test Page</Link>
               </li> */}
-              <li className='ml-20 text-lg font-bold uppercase hover:border-b'>
+              <li className='ml-12 text-lg font-bold uppercase hover:border-b'>
                 <Link href='/sponsors'>Sponsors</Link>
               </li>
-              <li className='ml-20 mr-10 text-lg font-bold uppercase hover:border-b'>
+              <li className='ml-12 mr-10 text-lg font-bold uppercase hover:border-b'>
                 <Link href='/contact'>Contact Us</Link>
               </li>
             </ul>

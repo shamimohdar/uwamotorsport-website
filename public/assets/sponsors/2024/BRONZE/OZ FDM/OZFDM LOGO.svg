@@ -8,12 +8,12 @@
   </g>
   <g>
     <g>
-      <circle cx="87.94" cy="88.13" r="55.96" fill="none" stroke="#034795" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
-      <circle cx="87.94" cy="88.13" r="51.96" fill="none" stroke="#034795" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
-      <circle cx="87.94" cy="88.13" r="59.96" fill="none" stroke="#034795" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
-      <circle cx="87.94" cy="88.13" r="63.96" fill="none" stroke="#034795" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
-      <circle cx="87.94" cy="88.13" r="67.95" fill="none" stroke="#034795" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
-      <circle cx="87.94" cy="88.13" r="71.95" fill="none" stroke="#034795" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <circle cfill="#FFFFFF" x="87.94" cy="88.13" r="55.96" fill="none" stroke="#034795" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <circle cfill="#FFFFFF" x="87.94" cy="88.13" r="51.96" fill="none" stroke="#034795" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <circle cfill="#FFFFFF" x="87.94" cy="88.13" r="59.96" fill="none" stroke="#034795" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <circle cfill="#FFFFFF" x="87.94" cy="88.13" r="63.96" fill="none" stroke="#034795" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <circle cfill="#FFFFFF" x="87.94" cy="88.13" r="67.95" fill="none" stroke="#034795" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <circle cfill="#FFFFFF" x="87.94" cy="88.13" r="71.95" fill="none" stroke="#034795" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
     </g>
     <g>
       <path d="M202.18,373.76a87.94,87.94,0,1,1-87.94,87.94A88,88,0,0,1,202.18,373.76Zm0,8a79.95,79.95,0,1,1-79.94,79.94A80,80,0,0,1,202.18,381.76Z" transform="translate(-114.24 -373.57)" fill-rule="evenodd"/>

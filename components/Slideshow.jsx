@@ -39,10 +39,16 @@ const Slideshow = ({Image1, Image2, Image3, Image4, Image5}) => {
 	return (
         <div className="w-full h-full relative">
 			<div className="relative w-full h-screen">
+				<div className="absolute bottom-0 left-0 right-0 h-1/3 z-10"
+                    style={{
+                        background: 'linear-gradient(to top, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%)',
+                        pointerEvents: 'none'
+                    }}
+                />
 				<Zoom {...zoomInProperties}>
 					{images.map((each, index) => (
 						
-						<div key={index} className="flex justify-center md:items-center items-start w-screen h-[screen] opacity-50">
+						<div key={index} className="flex justify-center md:items-center items-start w-screen h-[screen] opacity-60">
 							<Image src={each} width={2000} height={2000} className='object-cover w-screen h-screen' alt='/' />
 						</div>
 					))}

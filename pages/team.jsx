@@ -4,64 +4,55 @@ import Head from 'next/head';
 import Link from 'next/link';
 
 import Header from '../components/Header.jsx';
-import teamPhoto from '../public/assets/team/2024/23 Team Photo.jpg';
+import outsideTeamPhoto from '../public/assets/team/2025/outside team photo.jpg';
+import insideTeamPhoto from '../public/assets/team/2025/garage team photo.jpg';
 import TeamPhotos2024 from '../components/TeamPhotos2024.jsx';
 
 import bannerImg from '../public/assets/team/2024/Team page top banner.jpg';
 
 // Executive Team
-import Webb_grr from '../public/assets/team/2024/tom serious.jpg';
-import Webb_smiley from '../public/assets/team/2024/tom happy.jpg';
-import Ellis_grr from '../public/assets/team/2024/ellis serious.jpg';
-import Ellis_smiley from '../public/assets/team/2024/ellis happy.jpg';
-import Sonya from '../public/assets/team/2024/sonya1.jpg';
-// TODO: Missing Sonya
+import Tom_serious from '../public/assets/team/2025/tom serious.jpg';
+import Tom_smile from '../public/assets/team/2025/tom smile.jpg';
+import Josh_serious from '../public/assets/team/2025/josh serious.jpg';
+import Josh_smile from '../public/assets/team/2025/josh smile.jpg';
+import Jasmine_serious from '../public/assets/team/2025/jasmine serious.jpg';
+import Jasmine_smile from '../public/assets/team/2025/jasmine smile.jpg';
 
 // Business Team
-import Jas_grr from '../public/assets/team/2024/jas serious.jpg';
-import Jas_smiley from '../public/assets/team/2024/jas happy.jpg';
-import Clarissa_grr from '../public/assets/team/2024/clarissa serious.png';
-import Clarissa_smiley from '../public/assets/team/2024/clarissa happy.jpg';
-import CamH from '../public/assets/team/2024/camh.jpg';
-import Elliot from '../public/assets/team/2024/elliot.jpg';
-// TODO: Missing Sacha, Adele, Cam Hart
+import Alicia_serious from '../public/assets/team/2025/alicia serious.jpg';
+import Alicia_smile from '../public/assets/team/2025/alicia smile.jpg';
+import Clarissa_serious from '../public/assets/team/2025/clarissa serious.jpg';
+import Clarissa_smile from '../public/assets/team/2025/clarissa smile.jpg';
+import Joshoa_serious from '../public/assets/team/2025/joshoa serious.jpg';
+import Joshoa_smile from '../public/assets/team/2025/joshoa smile.jpg';
+import Anika_serious from '../public/assets/team/2025/anika serious.jpg';
+import Anika_smile from '../public/assets/team/2025/anika smile.jpg';
 
 // Technical Team
-import Basil_grr from '../public/assets/team/2024/basil serious.jpg';
-import Basil_smiley from '../public/assets/team/2024/basil happy.png';
-import Dan_grr from '../public/assets/team/2024/dan serious.jpg';
-import Dan_smiley from '../public/assets/team/2024/dan happy.jpg';
-import Dylan_grr from '../public/assets/team/2024/dylan serious.jpg';
-import Dylan_smiley from '../public/assets/team/2024/dylan happy.jpg';
-import Lucas_grr from '../public/assets/team/2024/lucas serious.jpg';
-import Lucas_smiley from '../public/assets/team/2024/lucas happy.jpg';
-import Sharif_grr from '../public/assets/team/2024/sharif serious.jpg';
-import Sharif_smiley from '../public/assets/team/2024/sharif happy.jpg';
+import Eloise_serious from '../public/assets/team/2025/eloise serious.jpg';
+import Eloise_smile from '../public/assets/team/2025/eloise smile.jpg';
+import Sohaib_serious from '../public/assets/team/2025/sohaib serious.jpg';
+import Sohaib_smile from '../public/assets/team/2025/sohaib smile.jpg';
+import Jess_serious from '../public/assets/team/2025/jess serious.jpg';
+import Jess_smile from '../public/assets/team/2025/jess smile.jpg';
+import Siobhan_serious from '../public/assets/team/2025/siobhan serious.jpg';
+import Siobhan_smile from '../public/assets/team/2025/siobhan smile.jpg';
+import Bilal_serious from '../public/assets/team/2025/bilal serious.jpg';
+import Bilal_smile from '../public/assets/team/2025/bilal smile.jpg';
 
 // Auxiliary Team
-import Andrew_grr from '../public/assets/team/2024/andrew serious.jpg';
-import Andrew_smiley from '../public/assets/team/2024/andrew happy.jpg';
-import Emily_grr from '../public/assets/team/2024/emily serious.png';
-import Emily_smiley from '../public/assets/team/2024/emily happy.jpg';
-import Gabe_grr from '../public/assets/team/2024/gabe serious.jpg';
-import Gabe_smiley from '../public/assets/team/2024/gabe happy.jpg';
-import Jess_grr from '../public/assets/team/2024/jess serious.jpg';
-import Jess_smiley from '../public/assets/team/2024/jess happy.jpg';
+import Emily_serious from '../public/assets/team/2025/emily serious.jpg';
+import Emily_smile from '../public/assets/team/2025/emily smile.jpg';
+import Michael_serious from '../public/assets/team/2025/michael serious.jpg';
+import Michael_smile from '../public/assets/team/2025/michael smile.jpg';
+import Shami_serious from '../public/assets/team/2025/shami serious.jpg';
+import Shami_smile from '../public/assets/team/2025/shami smile.jpg';
 
 // Track Team
-import CamL_grr from '../public/assets/team/2024/cam lambert serious.jpg';
-import CamL_smiley from '../public/assets/team/2024/cam lambert happy.jpg';
-import Jonathon_grr from '../public/assets/team/2024/jonathon serious.jpg';
-import Jonathon_smiley from '../public/assets/team/2024/jonathon happy.jpg';
-
-import Cameron from '../public/assets/team/2023/cameron.png';
-import Adele from '../public/assets/team/2024/adele.jpg';
-import Michael from '../public/assets/team/2024/michael.jpg';
-import Julian from '../public/assets/team/2023/julian.jpg';
-import Shami from '../public/assets/team/2024/shami.jpg';
-import Sharif from'../public/assets/team/2023/sharif.png';
-// import Sonya from '../public/assets/team/2023/sonya.png';
-
+import Cam_serious from '../public/assets/team/2025/cam serious.jpg';
+import Cam_smile from '../public/assets/team/2025/cam smile.jpg';
+import Seb_serious from '../public/assets/team/2025/seb serious.jpg';
+import Seb_smile from '../public/assets/team/2025/seb smile.jpg';
 
 const team = () => {
   return (
@@ -96,27 +87,28 @@ const team = () => {
         <div className='max-w-[1040px] mx-auto px-2 pt-10 pb-24'>
           <div className='grid md:grid-cols-3 gap-16'>
             <TeamPhotos2024
-              grr={Ellis_grr}
-              happy={Ellis_smiley}
-              linkedIn=''
-              name='Tom Ellis'
+              grr={Josh_serious}
+              happy={Josh_smile}
+              linkedIn='https://au.linkedin.com/in/josh-jenkins-b8a0a4180'
+              name='Joshua Jenkins'
               role='Technical Director'
             />
             <div className='h-full'>
             <TeamPhotos2024
-              grr={Webb_grr}
-              happy={Webb_smiley}
+              grr={Tom_serious}
+              happy={Tom_smile}
               linkedIn=''
               name='Tom Webb'
               role='Project Manager'
             />
             </div>
             <TeamPhotos2024
-              grr={Sonya}
-              happy={Sonya}
-              linkedIn='https://www.linkedin.com/in/sonya-emmett-7792a1250/'
-              name='Sonya Emmett'
+              grr={Jasmine_serious}
+              happy={Jasmine_smile}
+              linkedIn='https://www.linkedin.com/in/jasmine-noorman/'
+              name='Jasmine Noorman'
               role='Business Director'
+              style='py-30'
             />
           </div>
         </div>
@@ -138,47 +130,34 @@ const team = () => {
       <hr className='w-8/12 h-0.5 mx-auto bg-motorsports-yellow border-0 rounded-2 mt-2 mb-10 dark:bg-motorsports-yellow' />
 
       <div id='projects' className='w-full'>
-        <div className='max-w-[1040px] mx-auto px-2 pt-10'>
-          <div className='grid md:grid-cols-3 gap-16'>
+        <div className='max-w-[1300px] mx-auto px-2 pt-10 pb-24'>
+          <div className='grid md:grid-cols-4 gap-16'>
             <TeamPhotos2024
-              grr={Clarissa_grr}
-              happy={Clarissa_smiley}
+              grr={Clarissa_serious}
+              happy={Clarissa_smile}
               linkedIn=''
               name='Clarissa Sin'
-              role='Marketing Lead'
+              role='Media & Marketing Lead'
             />
             <TeamPhotos2024
-              grr={CamH}
-              happy={CamH}
-              linkedIn=''
-              name='Cameron Hart'
+              grr={Joshoa_serious}
+              happy={Joshoa_smile}
+              linkedIn='https://www.linkedin.com/in/joshoa-zilani-171b7b271/'
+              name='Joshoa Zilani'
               role='Finance Lead'
             />
             <TeamPhotos2024
-              grr={Elliot}
-              happy={Elliot}
-              linkedIn=''
-              name='Elliot Fear'
-              role='Media Lead'
-            />
-          </div>
-        </div>
-      </div>
-      <div id='projects' className='w-full'>
-        <div className='max-w-[520px] mx-auto px-2 py-16'>
-          <div className='grid lg:grid-cols-2 gap-8'>
-            <TeamPhotos2024
-              grr={Jas_grr}
-              happy={Jas_smiley}
-              linkedIn='https://www.linkedin.com/in/jasmine-noorman/'
-              name='Jasmine Noorman'
+              grr={Alicia_serious}
+              happy={Alicia_smile}
+              linkedIn='https://www.linkedin.com/in/alicia-feng-98801b250/'
+              name='Alicia Feng'
               role='Branding Lead'
             />
             <TeamPhotos2024
-              grr={Adele}
-              happy={Adele}
-              linkedIn='https://www.linkedin.com/in/adele-nicholl-636828284/'
-              name='Adele Nicholl'
+              grr={Anika_serious}
+              happy={Anika_smile}
+              linkedIn='https://www.linkedin.com/in/anika-paul-744318250/'
+              name='Anika Paul'
               role='Outreach Lead'
             />
           </div>
@@ -206,44 +185,44 @@ const team = () => {
         <div className='max-w-[1040px] mx-auto px-2 pt-10'>
           <div className='grid md:grid-cols-3 gap-16'>
             <TeamPhotos2024
-              grr={Lucas_grr}
-              happy={Lucas_smiley}
-              linkedIn=''
-              name='Lucas Cantu'
+              grr={Bilal_serious}
+              happy={Bilal_smile}
+              linkedIn='https://www.linkedin.com/in/bilalwaseem2004/'
+              name='Bilal Waseem'
               role='Vehicle Dynamics Lead'
             />
             <TeamPhotos2024
-              grr={Dan_grr}
-              happy={Dan_smiley}
-              linkedIn='https://www.linkedin.com/in/daniel-macrae-a3b318235/'
-              name='Daniel MacRae'
+              grr={Sohaib_serious}
+              happy={Sohaib_smile}
+              linkedIn='https://www.linkedin.com/in/sohaib4hmed/'
+              name='Sohaib Ahmed'
               role='Aerodynamics Lead'
             />
             <TeamPhotos2024
-              grr={Basil_grr}
-              happy={Basil_smiley}
+              grr={Eloise_serious}
+              happy={Eloise_smile}
               linkedIn=''
-              name='Basil El-Fahham'
+              name='Eloise von Ahlefeld'
               role='Chassis Lead'
             />
           </div>
         </div>
       </div>
       <div id='projects' className='w-full'>
-        <div className='max-w-[520px] mx-auto px-2 py-16'>
+        <div className='max-w-[640px] mx-auto px-2 py-16'>
           <div className='grid lg:grid-cols-2 gap-8'>
             <TeamPhotos2024
-              grr={Dylan_grr}
-              happy={Dylan_smiley}
-              linkedIn=''
-              name='Dylan Cassell'
+              grr={Jess_serious}
+              happy={Jess_smile}
+              linkedIn='https://www.linkedin.com/in/jess-gugliotta-6525bb151/'
+              name='Jessica Gugliotta'
               role='Powertrain Lead'
             />
             <TeamPhotos2024
-              grr={Sharif_grr}
-              happy={Sharif_smiley}
-              linkedIn='https://www.linkedin.com/in/sharif-mohdar-53a667236/'
-              name='Sharif Mohdar'
+              grr={Siobhan_serious}
+              happy={Siobhan_smile}
+              linkedIn='https://www.linkedin.com/in/siobhan-fraser-572b9735b/'
+              name='Siobhan Fraser'
               role='Electrical Lead'
             />
           </div>
@@ -252,7 +231,6 @@ const team = () => {
       <hr className='w-8/12 h-0.5 mx-auto bg-motorsports-yellow border-0 rounded-2 mb-5 dark:bg-motorsports-yellow' />
 
 
-      {/** TODO: Need to update photos */}
       <div className='w-9/12 mx-auto text-center font-bold text-3xl pb-5'>
       Auxiliary Management
       </div>
@@ -270,48 +248,28 @@ const team = () => {
       <hr className='w-8/12 h-0.5 mx-auto bg-motorsports-yellow border-0 rounded-2 mt-2 mb-10 dark:bg-motorsports-yellow' />
 
       <div id='projects' className='w-full'>
-        <div className='max-w-[1040px] mx-auto px-2 pt-10'>
+        <div className='max-w-[1040px] mx-auto px-2 pt-10 pb-24'>
           <div className='grid md:grid-cols-3 gap-16'>
             <TeamPhotos2024
-              grr={Michael}
-              happy={Michael}
+              grr={Michael_serious}
+              happy={Michael_smile}
               linkedIn='https://www.linkedin.com/in/mjhaus/'
               name='Michael Holmes'
               role='Safety Officer'
             />
             <TeamPhotos2024
-              grr={Andrew_grr}
-              happy={Andrew_smiley}
-              linkedIn='https://www.linkedin.com/in/andrew-hampson-3a5295250/'
-              name='Andrew Hampson'
-              role='Workshop Officer'
-            />
-            <TeamPhotos2024
-              grr={Shami}
-              happy={Shami}
+              grr={Shami_serious}
+              happy={Shami_smile}
               linkedIn='https://www.linkedin.com/in/shami-mohdar/'
               name='Shami Mohdar'
               role='Recruitment Manager'
             />
-          </div>
-        </div>
-      </div>
-      <div id='projects' className='w-full'>
-        <div className='max-w-[520px] mx-auto px-2 py-16'>
-          <div className='grid lg:grid-cols-2 gap-8'>
             <TeamPhotos2024
-              grr={Emily_grr}
-              happy={Emily_smiley}
-              linkedIn=''
+              grr={Emily_serious}
+              happy={Emily_smile}
+              linkedIn='https://www.linkedin.com/in/emily-martin-489a20354/'
               name='Emily Martin'
               role='Secretary'
-            />
-            <TeamPhotos2024
-              grr={Jess_grr}
-              happy={Jess_smiley}
-              linkedIn='https://www.linkedin.com/in/jess-gugliotta-6525bb151/'
-              name='Jess Gugliotta'
-              role='Research Coordinator'
             />
           </div>
         </div>
@@ -336,32 +294,32 @@ const team = () => {
 
       <hr className='w-8/12 h-0.5 mx-auto bg-motorsports-yellow border-0 rounded-2 mt-2 mb-10 dark:bg-motorsports-yellow' />
       <div id='projects' className='w-full'>
-        <div className='max-w-[520px] mx-auto px-2'>
+        <div className='max-w-[640px] mx-auto px-2'>
           <div className='grid lg:grid-cols-2 gap-8 py-8 mb-16'>
             <TeamPhotos2024
-              grr={CamL_grr}
-              happy={CamL_smiley}
+              grr={Cam_serious}
+              happy={Cam_smile}
               linkedIn='https://www.linkedin.com/in/cameron-lambert-a533b217b/'
               name='Cameron Lambert'
               role='Testing Manager'
             />
             <TeamPhotos2024
-              grr={Jonathon_grr}
-              happy={Jonathon_smiley}
-              linkedIn='https://www.linkedin.com/in/jonathan-gallagher/'
-              name='Jonathan Gallagher'
-              role='Track Manager'
+              grr={Seb_serious}
+              happy={Seb_smile}
+              linkedIn='https://www.linkedin.com/in/sebastien-sin-ab8992334/'
+              name='Sebastian Sin'
+              role='Race Engineer'
             />
           </div>
         </div>
       </div>
 
       <div className='w-9/12 mx-auto text-center font-bold text-4xl pt-10 pb-8'>
-        Our 2023 Competition Team
+        Our 2024 Competition Team
       </div>
       <hr className='w-8/12 h-0.5 mx-auto bg-motorsports-yellow border-0 rounded-2 mt-2 mb-16 dark:bg-motorsports-yellow' />
       <div className='w-8/12 m-auto flex justify-center pb-20'>
-        <Image src={teamPhoto} alt='/' />
+        <Image src={insideTeamPhoto} alt='/' />
       </div>
     </>
   );

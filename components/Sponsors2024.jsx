@@ -9,30 +9,44 @@ import uwaCrest from '../public/assets/sponsors/title/UWA Crest - White.png'
 import uwaTitle from '../public/assets/sponsors/title/UWA Text - White.png'
 
 // Platinum Sponsors
-import leapImg from '../public/assets/sponsors/platinum/leap.png';
+import leapImg from '../public/assets/sponsors/2024/platinum/Leap Australia.svg';
 import savicImg from '../public/assets/sponsors/2024/platinum/savic.png';
 
 // Gold Sponsors
+import adnavImg from '../public/assets/sponsors/2024/gold/Ad Nav.svg';
 import altiumImg from '../public/assets/sponsors/2024/gold/altium.png';
+import dassaultImg from '../public/assets/sponsors/2024/gold/Dassault Systemes.svg';
 import doddImg from '../public/assets/sponsors/2024/gold/cdodd.png';
 import cevaImg from '../public/assets/sponsors/2024/gold/ceva.png';
+import kwikImg from '../public/assets/sponsors/2024/gold/KwiknKleen.svg';
 import marineImg from '../public/assets/sponsors/gold/gmd.png';
 import mhsImg from '../public/assets/sponsors/2024/gold/mhs.png';
+import platinumpaintsImg from '../public/assets/sponsors/2024/gold/platinum paint supplies.svg';
 import safeImg from '../public/assets/sponsors/2024/gold/safeactions.png';
+import stirlingImg from '../public/assets/sponsors/2024/gold/Stirling Electro Plating.svg';
 
 
 // Silver Sponsors
+import aviationcompositesLogo from '../public/assets/sponsors/2024/silver/Aviation Composites Logo - Black Reverse.svg';
 import calmLogo from '../public/assets/sponsors/2024/silver/Calm-Aluminium.png';
 import canvaLogo from '../public/assets/sponsors/2024/silver/Canva Logo White.png';
+import couplersLogo from '../public/assets/sponsors/2024/silver/Couplers.svg';
+import endeavourLogo from '../public/assets/sponsors/2024/silver/Endeavour Homes.svg';
 import fuzeLogo from '../public/assets/sponsors/2024/silver/Fuze Logo White.png';
+import gmfLogo from '../public/assets/sponsors/2024/silver/GMF Contractors.svg';
 import kissLogo from '../public/assets/sponsors/2024/silver/KISSsoft Logo White.png';
+import liquidLogo from '../public/assets/sponsors/2024/silver/liquid-instruments-logo-for livery.svg';
 import loctiteLogo from '../public/assets/sponsors/2024/silver/loctite-logo-white.png';
+import lycopodiumLogo from '../public/assets/sponsors/2024/silver/white lyco.png';
 import primeroLogo from '../public/assets/sponsors/2024/silver/Primero-white.png';
+import prohelionLogo from '../public/assets/sponsors/2024/silver/Prohelion.svg';
 import rapidLogo from '../public/assets/sponsors/2024/silver/Rapid-Harness-white.png';
+import rockyridgeLogo from '../public/assets/sponsors/2024/silver/Rocky Ridge_Logo.svg';
 import sealLogo from '../public/assets/sponsors/2024/silver/seal-solutions-white.png';
 import sportLogo from '../public/assets/sponsors/2024/silver/UWA-Sport-Logo.png';
 import switchLogo from '../public/assets/sponsors/2024/silver/SWITCH technologies.png';
 import toolkitLogo from '../public/assets/sponsors/2024/silver/Tool Kit Depot White.png';
+import wagearsLogo from '../public/assets/sponsors/2024/silver/WAGears.svg';
 import wascLogo from '../public/assets/sponsors/2024/silver/WA Sporting Car Club (white).png';
 import wintechLogo from '../public/assets/sponsors/2024/silver/Wintech Engineering (white).png';
 
@@ -152,7 +166,7 @@ const Sponsors = () => {
                 title='CEVA Logistics'
                 backgroundImg={cevaImg}
                 projectUrl='https://www.cevalogistics.com/en'
-                tier='silver'
+                tier='gold'
               />
             <p className='text-justify text-lg pt-4'>
             CEVA Logistics leads global supply chain management with 
@@ -219,7 +233,12 @@ const Sponsors = () => {
       <h2 className='text-center pb-2'>Silver Sponsors</h2>
       <hr className='lg:w-5/12 w-10/12 h-0.5 mx-auto bg-motorsports-yellow border-0 rounded-2 mt-2 mb-5 dark:bg-motorsports-yellow' />
         <div className='grid sm:grid-cols-5 gap-16 py-8'>
-            
+            <SponsorItem
+              title='Aviation Composites'
+              backgroundImg={aviationcompositesLogo}
+              projectUrl='https://www.aviationcomposites.com.au/'
+              tier='silver'
+            />
             <SponsorItem
               title='Calm Aluminium'
               backgroundImg={calmLogo}
@@ -233,9 +252,27 @@ const Sponsors = () => {
               tier='silver'
             />
             <SponsorItem
+              title='Couplers'
+              backgroundImg={couplersLogo}
+              projectUrl='https://couplers.com.au/'
+              tier='silver'
+            />
+            <SponsorItem
+              title='Endeavour Homes'
+              backgroundImg={endeavourLogo}
+              projectUrl='https://endeavourhomes.com.au/'
+              tier='silver'
+            />
+            <SponsorItem
               title='Fuze'
               backgroundImg={fuzeLogo}
               projectUrl='https://fuze.solutions/'
+              tier='silver'
+            />
+            <SponsorItem
+              title='GMF Contractors'
+              backgroundImg={gmfLogo}
+              projectUrl='https://gmfcontractors.com.au/'
               tier='silver'
             />
             <SponsorItem
@@ -243,19 +280,35 @@ const Sponsors = () => {
               backgroundImg={kissLogo}
               projectUrl='https://www.kisssoft.com/en'
               tier='silver'
-            />  
+            />
+            <SponsorItem
+              title='Liquid Instruments'
+              backgroundImg={liquidLogo}
+              projectUrl='https://liquidinstruments.com/'
+              tier='silver'
+            />
             <SponsorItem
               title='Loctite'
               backgroundImg={loctiteLogo}
               projectUrl='www.henkel-adhesives.com'
               tier='silver'
             />
-          </div>
-          <div className='grid sm:grid-cols-4 gap-16 py-8'>
+            <SponsorItem
+              title='Lycopodium'
+              backgroundImg={lycopodiumLogo}
+              projectUrl='https://www.lycopodium.com/'
+              tier='silver'
+            />
             <SponsorItem
               title='Primero'
               backgroundImg={primeroLogo}
               projectUrl='https://primero.com.au/'
+              tier='silver'
+            />
+            <SponsorItem
+              title='Prohelion'
+              backgroundImg={prohelionLogo}
+              projectUrl='https://prohelion.com/'
               tier='silver'
             />
             <SponsorItem
@@ -264,6 +317,14 @@ const Sponsors = () => {
               projectUrl='https://rapidharness.com/'
               tier='silver'
             />
+            <SponsorItem
+              title='Rocky Ridge Brewing'
+              backgroundImg={rockyridgeLogo}
+              projectUrl='https://www.rockyridgebrewing.com.au/'
+              tier='silver'
+            />
+          </div>
+          <div className='grid sm:grid-cols-6 gap-16 py-8'>
             <SponsorItem
               title='Seal Solutions'
               backgroundImg={sealLogo}
@@ -276,8 +337,6 @@ const Sponsors = () => {
                 projectUrl='https://www.switchtechnologies.net/'
                 tier='silver'
               />
-          </div>
-          <div className='grid sm:grid-cols-4 gap-16 py-8'>
             <SponsorItem
               title='Tool Kit Depot'
               backgroundImg={toolkitLogo}
@@ -310,6 +369,12 @@ const Sponsors = () => {
       <h2 className='text-center pb-2'>Bronze Sponsors</h2>
       <hr className='lg:w-5/12 w-8/12 h-0.5 mx-auto bg-motorsports-yellow border-0 rounded-2 mt-2 mb-5 dark:bg-motorsports-yellow' />
         <div className='grid sm:grid-cols-3 gap-8 py-8 font-bold text-lg pt-4'>
+          <SponsorItem
+            title='ADRAD'
+            backgroundImg=''
+            projectUrl='https://www.adrad.com.au/'
+            tier='bronze'
+          />
           <SponsorItem
             title='AEM Performance Electronics'
             backgroundImg=''
@@ -347,6 +412,24 @@ const Sponsors = () => {
             tier='bronze'
           />
           <SponsorItem
+            title='Bender'
+            backgroundImg=''
+            projectUrl='https://www.bender.de/en/company/'
+            tier='bronze'
+          />
+          <SponsorItem
+            title='Beyond Motors'
+            backgroundImg=''
+            projectUrl='https://www.beyondmotors.io/'
+            tier='bronze'
+          />
+          <SponsorItem
+            title='Calspan'
+            backgroundImg=''
+            projectUrl='https://calspan.com/'
+            tier='bronze'
+          />
+          <SponsorItem
             title='Composite Envisions'
             backgroundImg=''
             projectUrl='https://compositeenvisions.com/'
@@ -365,15 +448,63 @@ const Sponsors = () => {
             tier='bronze'
           />
           <SponsorItem
+            title='FASTACRAFT'
+            backgroundImg=''
+            projectUrl='https://www.fastacraft.com/'
+            tier='bronze'
+          />
+          <SponsorItem
             title='Fastron Electronics'
             backgroundImg=''
             projectUrl='https://fastron.com.au/'
             tier='bronze'
           />
           <SponsorItem
+            title='Forch'
+            backgroundImg=''
+            projectUrl='https://www.forch.com.au/'
+            tier='bronze'
+          />
+          <SponsorItem
+            title='GoGear Racing Services'
+            backgroundImg=''
+            projectUrl='https://www.gogear.com.au/about-us'
+            tier='bronze'
+          />
+          <SponsorItem
+            title='Hoosier'
+            backgroundImg=''
+            projectUrl='https://www.hoosiertire.com/'
+            tier='bronze'
+          />
+          <SponsorItem
             title='Keysight'
             backgroundImg=''
             projectUrl='https://www.keysight.com/us/en/home.html'
+            tier='bronze'
+          />
+          <SponsorItem
+            title='Legacy EV'
+            backgroundImg=''
+            projectUrl='https://legacyev.com/'
+            tier='bronze'
+          />
+          <SponsorItem
+            title='Motul Supplies'
+            backgroundImg=''
+            projectUrl='https://www.autobodysupplies.com.au/'
+            tier='bronze'
+          />
+          <SponsorItem
+            title='Thermo Fans'
+            backgroundImg=''
+            projectUrl='https://thermofans.com.au/'
+            tier='bronze'
+          />
+          <SponsorItem
+            title='Tinker Tech'
+            backgroundImg=''
+            projectUrl='https://www.tinkertechau.com.au/'
             tier='bronze'
           />
           <SponsorItem
@@ -392,6 +523,12 @@ const Sponsors = () => {
             title='Uniforms West'
             backgroundImg=''
             projectUrl='https://www.willapparel.com.au/'
+            tier='bronze'
+          />
+          <SponsorItem
+            title='Vivid Finishing'
+            backgroundImg=''
+            projectUrl='https://www.facebook.com/p/Vivid-Finishing-100078767230318/'
             tier='bronze'
           />
         </div>

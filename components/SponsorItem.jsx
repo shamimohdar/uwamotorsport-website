@@ -29,8 +29,8 @@ const SponsorItem = ({title, backgroundImg, projectUrl, tier}) => {
     )}
     {tier === 'silver' && (
       <Link href={projectUrl} target='_blank'>
-        <div className='relative flex items-center justify-center h-auto w-full shadow-xl rounded-xl'>
-          <Image className='rounded-sm' src={backgroundImg} style={{width:"300px", height:"100px", objectFit:"contain"}} alt='/' /> 
+        <div className='relative flex items-center justify-center w-full shadow-xl rounded-xl'>
+          <Image className='rounded-sm' src={backgroundImg} style={{height:"100px", objectFit:"contain"}} alt='/' /> 
         </div>
       </Link>
       
