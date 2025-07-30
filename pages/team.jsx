@@ -308,7 +308,7 @@ const team = () => {
               happy={Seb_smile}
               linkedIn='https://www.linkedin.com/in/sebastien-sin-ab8992334/'
               name='Sebastian Sin'
-              role='Race Engineer'
+              role='Track Manager'
             />
           </div>
         </div>
