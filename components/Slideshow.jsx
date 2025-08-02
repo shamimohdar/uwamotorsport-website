@@ -27,12 +27,12 @@ const Slideshow = ({Image1, Image2, Image3, Image4, Image5}) => {
 		infinite: true,
 		prevArrow: (
 			<div className="ml-20 hover:bg-gray-500 rounded-full p-2">
-				<ArrowLeftIcon className="invisible md:visible h-10 w-10 text-white cursor-pointer" />
+				          <ArrowLeftIcon className="invisible md:visible h-10 w-10 text-gray-900 dark:text-white cursor-pointer" />
 			</div>
 		),
 		nextArrow: (
 				<div className="mr-20 hover:bg-gray-500 rounded-full p-2">
-				   <ArrowRightIcon className="invisible md:visible h-10 w-10 text-white cursor-pointer" />
+				             <ArrowRightIcon className="invisible md:visible h-10 w-10 text-gray-900 dark:text-white cursor-pointer" />
 			    </div>
 		),
 	};
