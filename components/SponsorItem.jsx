@@ -29,11 +29,20 @@ const SponsorItem = ({title, backgroundImg, projectUrl, tier}) => {
     )}
     {tier === 'silver' && (
       <Link href={projectUrl} target='_blank'>
-        <div className='relative flex items-center justify-center w-full shadow-xl rounded-xl'>
-          <Image className='rounded-sm' src={backgroundImg} style={{height:"100px", objectFit:"contain"}} alt='/' /> 
+        <div className='relative flex items-center justify-center w-full h-24 shadow-xl rounded-xl bg-white/5 p-4'>
+          <Image 
+            className='rounded-sm' 
+            src={backgroundImg} 
+            style={{
+              width: "100%", 
+              height: "100%", 
+              objectFit: "contain",
+              maxHeight: "80px"
+            }} 
+            alt={title} 
+          /> 
         </div>
       </Link>
-      
     )}
     {tier === 'bronze' && (
       <Link href={projectUrl} target='_blank'>

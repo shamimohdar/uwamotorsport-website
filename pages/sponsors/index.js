@@ -2,12 +2,12 @@ import React from 'react';
 import Head from 'next/head';
 import Image from 'next/image';
 
-import Header from '../components/Header.jsx';
-import Sponsors from '../components/Sponsors2024.jsx';
+import Header from '../../components/Header.jsx';
+import Sponsors from '../../components/Sponsors2024.jsx';
 
-import bannerImg from '../public/assets/sponsors/2024/Sponsor Image 1.jpg';
+import bannerImg from '../../public/assets/sponsors/2024/Sponsor Image 1.jpg';
 
-const sponsors = () => {
+const SponsorsPage = () => {
   return (
     <>
       <Head>
@@ -29,10 +29,11 @@ const sponsors = () => {
         text={"OUR SPONSORS"} 
       />
 
-      <div className='w-full h-full mx-auto p-2 flex justify-center items-center pb-8'></div>
+      <div className='w-full h-full mx-auto p-2 flex justify-center items-center pb-8'>
         <Sponsors />
+      </div>
     </>
   );
 };
 
-export default sponsors;
+export default SponsorsPage;
