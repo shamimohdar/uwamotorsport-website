@@ -12,7 +12,7 @@ html {
 
 @layer base {
   body {
-    @apply bg-[#000000] text-[#ffffff] tracking-wide
+    @apply bg-white dark:bg-[#000000] text-gray-900 dark:text-[#ffffff] tracking-wide transition-colors duration-300
   }
 
   h1, h2, h3, h4, h5, h6 {
@@ -32,5 +32,23 @@ html {
   }
 
   button {
+  }
+
+  /* Light mode specific styles */
+  .light-theme {
+    --bg-primary: #ffffff;
+    --bg-secondary: #f8f9fa;
+    --text-primary: #1a202c;
+    --text-secondary: #4a5568;
+    --border-color: #e2e8f0;
+  }
+
+  /* Dark mode specific styles */
+  .dark-theme {
+    --bg-primary: #000000;
+    --bg-secondary: #1a1a1a;
+    --text-primary: #ffffff;
+    --text-secondary: #a0aec0;
+    --border-color: #2d3748;
   }
 }
