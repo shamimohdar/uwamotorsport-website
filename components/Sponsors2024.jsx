@@ -27,19 +27,19 @@ import stirlingImg from '../public/assets/sponsors/2024/gold/Stirling Electro Pl
 
 
 // Silver Sponsors
-import aviationcompositesLogo from '../public/assets/sponsors/2024/silver/Aviation Composites Logo - Black Reverse.svg';
+import aviationcompositesLogo from '../public/assets/sponsors/2024/silver/Aviation Composites.png';
 import calmLogo from '../public/assets/sponsors/2024/silver/Calm-Aluminium.png';
 import canvaLogo from '../public/assets/sponsors/2024/silver/Canva Logo White.png';
-import couplersLogo from '../public/assets/sponsors/2024/silver/Couplers.svg';
+import couplersLogo from '../public/assets/sponsors/2024/silver/Coupler.png';
 import endeavourLogo from '../public/assets/sponsors/2024/silver/Endeavour Homes.svg';
 import fuzeLogo from '../public/assets/sponsors/2024/silver/Fuze Logo White.png';
-import gmfLogo from '../public/assets/sponsors/2024/silver/GMF Contractors.svg';
+import gmfLogo from '../public/assets/sponsors/2024/silver/GMF.png';
 import kissLogo from '../public/assets/sponsors/2024/silver/KISSsoft Logo White.png';
 import liquidLogo from '../public/assets/sponsors/2024/silver/liquid-instruments-logo-for livery.svg';
 import loctiteLogo from '../public/assets/sponsors/2024/silver/loctite-logo-white.png';
 import lycopodiumLogo from '../public/assets/sponsors/2024/silver/white lyco.png';
 import primeroLogo from '../public/assets/sponsors/2024/silver/Primero-white.png';
-import prohelionLogo from '../public/assets/sponsors/2024/silver/Prohelion.svg';
+import prohelionLogo from '../public/assets/sponsors/2024/silver/Prohelion.png';
 import rapidLogo from '../public/assets/sponsors/2024/silver/Rapid-Harness-white.png';
 import rockyridgeLogo from '../public/assets/sponsors/2024/silver/Rocky Ridge_Logo.svg';
 import sealLogo from '../public/assets/sponsors/2024/silver/seal-solutions-white.png';
