@@ -44,7 +44,7 @@ export default function Home() {
           </div>
           <div className='text-justify lg:w-1/2 p-10 align-middle items-center'>
             <h2 className='font-bold lg:text-4xl text-3xl lg:pb-2'>Who We Are</h2>
-            <p className='py-2 text-white lg:text-xl text-lg'>
+            <p className='py-2 text-white dark:text-gray-700 lg:text-xl text-lg'>
               The University of Western Australia Motorsport Team (UWAM) is a group of 
               diverse and dedicated students that work together to design, build and test 
               an electric, formula-style vehicle to participate in the Formula SAE competition. 
@@ -65,7 +65,7 @@ export default function Home() {
           {/* What is FSAE? (look at prospectus), 1-2 paragraphs */}
           <div className='text-justify lg:w-1/2 p-10'>
             <h2 className='font-bold lg:text-4xl text-3xl lg:pb-2'>The Competition</h2>
-            <p className='py-2 text-white lg:text-xl text-lg'>
+            <p className='py-2 text-white dark:text-gray-700 lg:text-xl text-lg'>
             Formula SAE is the largest engineering student-design competition in the 
             world, consisting of over 500 teams globally. The premise of the competition 
             dictates that a fictional manufacturing company has contracted the team to 
@@ -74,7 +74,7 @@ export default function Home() {
             These competitions take place across the world, in locations such as North 
             America, England, Germany, and our home competition in Victoria, Australia.
             </p>
-            <p className='py-2 text-white lg:text-xl text-lg'>
+            <p className='py-2 text-white dark:text-gray-700 lg:text-xl text-lg'>
             Formula SAE is a student design competition initiated by the Society of Automotive
             Engineers in 1979. The concept behind the competition stipulates that a fictional
             manufacturing company has contracted a student design team to develop a small

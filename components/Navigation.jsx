@@ -3,13 +3,15 @@ import Link from 'next/link';
 import React, { useState, useEffect } from 'react';
 import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from 'react-icons/ai';
 import NavLogo from '../public/assets/navLogoTest.png'
+import ThemeToggle from './ThemeToggle';
+import { useTheme } from '../lib/ThemeContext';
 
 const Navigation = () => {
   const [nav, setNav] = useState(false);
   const [shadow, setShadow] = useState(false);
   const [navBg, setNavBg] = useState(false);
   const [logo, setLogo] = useState(false);
-  const [linkColor, setLinkColor] = useState('#FFFFFF');
+  const { isDark } = useTheme();
 
   const handleNav = () => {
     setNav(!nav);
@@ -37,12 +39,13 @@ const Navigation = () => {
   return (
     <div>
       <div
-        style={{ background: 'linear-gradient(to bottom, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%)' }}
-        className= {
-          shadow
-            ? 'fixed w-full h-20 shadow-xl z-[100] ease-in-out duration-300'
-            : 'fixed w-full h-20 z-[100] ease-in-out duration-300'
-        }
+        className={`fixed w-full h-20 z-[100] ease-in-out duration-300 ${
+          shadow ? 'shadow-xl' : ''
+        } ${
+          isDark 
+            ? 'bg-gradient-to-b from-white/90 to-transparent backdrop-blur-sm' 
+            : 'bg-gradient-to-b from-black to-transparent'
+        }`}
       >
         <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
           <div className='scale-100 w-44'>
@@ -56,15 +59,15 @@ const Navigation = () => {
             </Link>
           </div>
           
-          <div>
-            <ul style={{ color: `${linkColor}` }} className='hidden lg:flex'>
-              <li className='ml-12 text-lg font-bold uppercase hover:border-b'>
+          <div className="flex items-center">
+            <ul className='hidden lg:flex text-white dark:text-gray-900'>
+              <li className='ml-12 text-lg font-bold uppercase hover:border-b border-white dark:border-gray-900 transition-colors'>
                 <Link href='/'>Home</Link>
               </li>
-              <li className='ml-12 text-lg font-bold uppercase hover:border-b'>
+              <li className='ml-12 text-lg font-bold uppercase hover:border-b border-white dark:border-gray-900 transition-colors'>
                 <Link href='/about'>About</Link>
               </li>
-              <li className='ml-12 text-lg font-bold uppercase hover:border-b'>
+              <li className='ml-12 text-lg font-bold uppercase hover:border-b border-white dark:border-gray-900 transition-colors'>
                 <Link href='/team'>Team</Link>
               </li>
               {/* <li className='ml-12 text-lg font-bold uppercase hover:border-b'>
@@ -73,17 +76,17 @@ const Navigation = () => {
               {/* <li className='ml-12 text-lg font-bold uppercase hover:border-b'>
                 <Link href='/test'>Test Page</Link>
               </li> */}
-              <li className='ml-12 text-lg font-bold uppercase hover:border-b'>
+              <li className='ml-12 text-lg font-bold uppercase hover:border-b border-white dark:border-gray-900 transition-colors'>
                 <Link href='/sponsors'>Sponsors</Link>
               </li>
-              <li className='ml-12 mr-10 text-lg font-bold uppercase hover:border-b'>
+              <li className='ml-12 mr-10 text-lg font-bold uppercase hover:border-b border-white dark:border-gray-900 transition-colors'>
                 <Link href='/contact'>Contact Us</Link>
               </li>
             </ul>
+            <ThemeToggle />
             <div
-              style={{ color: `${linkColor}` }}
               onClick={handleNav}
-              className='lg:hidden'
+              className='lg:hidden ml-4 text-white dark:text-gray-900'
             >
               <AiOutlineMenu size={25} />
             </div>
@@ -94,14 +97,16 @@ const Navigation = () => {
         {/* Overlay */}
         <div
           className={
-            nav ? 'lg:hidden fixed left-0 top-0 w-full h-screen bg-black/70' : ''
+            nav ? 'lg:hidden fixed left-0 top-0 w-full h-screen bg-black/70 dark:bg-white/70' : ''
           }
         >
           {/* Side Drawer Menu */}
           <div
             className={
               nav
-                ? ' fixed left-0 top-0 w-[75%] sm:w-[60%] lg:w-[45%] h-screen bg-black p-10 ease-in duration-500'
+                ? `fixed left-0 top-0 w-[75%] sm:w-[60%] lg:w-[45%] h-screen p-10 ease-in duration-500 ${
+                    isDark ? 'bg-white' : 'bg-black'
+                  }`
                 : 'fixed left-[-100%] top-0 p-10 ease-in duration-500'
             }
           >
@@ -115,19 +120,22 @@ const Navigation = () => {
                 </Link>
                 <div
                   onClick={handleNav}
-                  className='rounded-full shadow-lg border-2 border-gray-500 p-2 cursor-pointer ml-4'
+                  className='rounded-full shadow-lg border-2 border-gray-500 dark:border-gray-400 p-2 cursor-pointer ml-4 text-white dark:text-gray-900'
                 >
                   <AiOutlineClose />
                 </div>
               </div>
-              <div className='border-b border-gray-300 my-4'>
-                <p className='w-[85%] lg:w-[90%] py-4'>
+              <div className='border-b border-gray-300 dark:border-gray-600 my-4'>
+                <p className='w-[85%] lg:w-[90%] py-4 text-white dark:text-gray-900'>
                   Welcome to UWA Motorsport
                 </p>
               </div>
+              <div className="mb-4">
+                <ThemeToggle />
+              </div>
             </div>
             <div className='py-4 flex flex-col'>
-              <ul className='uppercase'>
+              <ul className='uppercase text-white dark:text-gray-900'>
                 <Link href='/'>
                   <li onClick={() => setNav(false)} className='py-4 text-sm'>
                     Home

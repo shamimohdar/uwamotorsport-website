@@ -27,13 +27,13 @@ const about = () => {
         className="lg:visible hidden"
       />
 
-      <div className="bg-black text-white">
+      <div className="bg-black dark:bg-white text-white dark:text-gray-900 transition-colors duration-300">
       <div className='w-full h-full mx-auto p-2 flex justify-center items-center'>
           <h2 className="text-4xl">Our Mission</h2>
       </div>
       <hr className='w-8/12 h-0.5 mx-auto bg-motorsports-yellow border-0 rounded-2 mt-2 mb-5 dark:bg-motorsports-yellow' />
       <div className=' w-8/12 h-full mx-auto justify-center items-center lg:text-center text-justify'>
-        <p className='py-2 text-white text-lg'>
+        <p className='py-2 text-white dark:text-gray-700 text-lg'>
         The University of Western Australia Motorsport Team (UWAM) is a group of diverse and 
         dedicated students that work together to design, build and test an electric formula-style 
         vehicle to participate in the Formula SAE competition. The team strive for excellence each year with 
@@ -41,7 +41,7 @@ const about = () => {
         </p>
       </div>
       <div className=' w-8/12 m-auto gap-8 text-2xl font-bold pb-5'>
-        <p className='lg:block hidden py-2 text-white text-center lg:pb-0 pb-6'>
+        <p className='lg:block hidden py-2 text-white dark:text-gray-700 text-center lg:pb-0 pb-6'>
           Competition - Education - Innovation - Community - Challenge
         </p>
         {/* <p className='lg:hidden visible text-white text-center py-4'>
@@ -76,7 +76,7 @@ const about = () => {
           />
         </div>
         <div className='col-span-1 xl:w-full w-8/12 mx-auto xl:py-0 text-justify'>
-          <p className='pb-2 text-white text-2xl font-bold'>
+          <p className='pb-2 text-white dark:text-gray-900 text-2xl font-bold'>
             Who are we?
           </p>
           <div className='mb-3 text-lg'>
@@ -102,7 +102,7 @@ const about = () => {
           <div className='lg:grid grid-cols-3 gap-16 lg:pb-16'>
             <div className='col-span-2 text-lg text-justify lg:pb-0 pb-16'>
               <div className=' gap-8 text-2xl font-bold'>
-                <p className='py-2 text-white'>
+                <p className='py-2 text-white dark:text-gray-900'>
                   A Message from our Project Manager
                 </p>
               </div>
@@ -133,10 +133,10 @@ const about = () => {
               <div className='flex items-right justify-right object-right'>
               <Image src={TomImg} alt='/' />
               </div>
-                <div className='pt-10 text-white text-3xl font-bold text-left'>
+                <div className='pt-10 text-white dark:text-gray-900 text-3xl font-bold text-left'>
                 <p>Thomas Webb</p>
               </div>
-              <div className='py-2 text-white text-2xl pb-10 text-left'>
+              <div className='py-2 text-white dark:text-gray-900 text-2xl pb-10 text-left'>
                 <p>Project Manager</p>
               </div>
             </div>
