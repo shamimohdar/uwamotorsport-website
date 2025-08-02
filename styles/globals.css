@@ -34,3 +34,7 @@ html {
   button {
   }
 }
+
+.focus\:ring-motorsports-yellow:focus {
+  --tw-ring-color: #f59e0b;
+}

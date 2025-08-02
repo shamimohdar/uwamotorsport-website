@@ -1,32 +1,76 @@
-import React from 'react';
-import Image from 'next/image';
+import React, { useState } from 'react';
 import Head from 'next/head';
-import Link from 'next/link';
+import CarCard from '../components/Cars/CarCard';
+import CarModal from '../components/Cars/CarModal';
+import { carData } from '../data/cars';
 
-import Timeline from '../components/Timeline.jsx';
-import Timeline2 from '../components/Timeline2.jsx';
+export default function CarsPage() {
+  const [selectedCar, setSelectedCar] = useState(null);
 
-const about = () => {
+  const handleCarSelect = (car) => {
+    setSelectedCar(car);
+  };
+
+  const handleModalClose = () => {
+    setSelectedCar(null);
+  };
+
   return (
     <>
       <Head>
-        <title>UWAM | Cars</title>
-        <meta
-          name='description'
-          content="The UWA Motorsports Team has been operating since 2001 and has been building electric vehicles since 2017. We compete annually at FSAE-Australasia in ..."
+        <title>Our Cars | UWAM Motorsports</title>
+        <meta 
+          name="description" 
+          content="Explore UWA Motorsports Team's vehicle gallery featuring our electric Formula Student cars with detailed technical specifications." 
         />
-        <link rel='icon' href='/fav.png' />
-      </Head> 
-      <div className='w-full h-full mx-auto p-5 flex justify-center items-center pt-[160px]'>
-        <h2>OUR GARAGE</h2>
-    </div>
-    <hr className='w-10/12 h-0.5 mx-auto bg-motorsports-yellow border-0 rounded-2 mt-2 mb-5 dark:bg-motorsports-yellow' />
-      <Timeline />  
-      <div className='p-24'>
-        {/* <Timeline2 /> */}
-      </div>
+        <meta name="keywords" content="UWA Motorsports, Formula Student, Electric Vehicles, Racing Cars" />
+        <meta property="og:title" content="Our Cars | UWAM Motorsports" />
+        <meta property="og:description" content="Explore our Formula Student electric racing cars" />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="/assets/cars/2024 car.png" />
+        <link rel="icon" href="/fav.png" />
+        <link rel="canonical" href="https://uwamotorsports.com/cars" />
+      </Head>
+      
+      <main className="w-full mx-auto p-5 flex flex-col items-center pt-[160px] border-white">
+        <header className="text-center mb-8">
+          <h1 className="text-3xl font-bold mb-2">OUR GARAGE</h1>
+          <hr className="w-10/12 h-0.5 bg-motorsports-yellow rounded-full my-4" />
+        </header>
+        
+        <section 
+          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 w-full max-w-6xl px-4"
+          aria-label="Car gallery"
+        >
+          {carData.map((car) => (
+            <CarCard 
+              key={car.year}
+              car={car}
+              onSelect={handleCarSelect}
+            />
+          ))}
+        </section>
+      </main>
+
+      {selectedCar && (
+        <CarModal 
+          car={selectedCar}
+          onClose={handleModalClose}
+        />
+      )}
     </>
   );
-};
+}
 
-export default about;
+// Optional: Add getStaticProps for better performance
+export async function getStaticProps() {
+  // In a real application, you might fetch this data from a CMS or API
+  // const cars = await fetchCarsData();
+  
+  return {
+    props: {
+      // cars, // Pass as props if fetching externally
+    },
+    revalidate: 3600, // Revalidate every hour if using ISR
+  };
+}
